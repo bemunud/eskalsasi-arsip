@@ -38,7 +38,7 @@ export default function ActionButtons() {
                             alt="N"
                             width={32}
                             height={32}
-                            className="w-5 my-3"
+                            className="w-8 py-1.5"
                             priority
                           />
                           <div className="text-sm font-semibold leading-none">

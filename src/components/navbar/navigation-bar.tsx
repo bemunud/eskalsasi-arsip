@@ -14,7 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { GOVERNANCE, AUDIT, TENTANG } from "@/scripts";
-import { ListItem, ListItemGovernence } from "./script-nav-bar";
+import { ListItem } from "./script-nav-bar";
 
 export default function NavigationMenuDemo() {
   return (
@@ -27,13 +27,27 @@ export default function NavigationMenuDemo() {
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-3 lg:w-[800px] ">
               {GOVERNANCE.map((component) => (
-                <ListItemGovernence
-                  key={component.title}
-                  title={component.title}
-                  href={component.href}
-                >
-                  {component.description}
-                </ListItemGovernence>
+                <li key={component.title}>
+                  <Link
+                    href={`${component.href}`}
+                    className="block select-none bg-white space-y-1 rounded-md p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                  >
+                    <Image
+                      src={`${component.icon}`}
+                      alt="N"
+                      width={32}
+                      height={32}
+                      className="w-7 py-2"
+                      priority
+                    />
+                    <div className="text-sm font-semibold leading-none">
+                      {component.title}
+                    </div>
+                    <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                      {component.description}
+                    </p>
+                  </Link>
+                </li>
               ))}
             </ul>
           </NavigationMenuContent>
@@ -58,9 +72,7 @@ export default function NavigationMenuDemo() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
-            <NavTriggerLink className="font-medium">
-              Berita{" "}
-            </NavTriggerLink>
+            <NavTriggerLink className="font-medium">Berita </NavTriggerLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -80,7 +92,14 @@ export default function NavigationMenuDemo() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-3 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <Image src="./logo-brand.svg" alt="N" className="h-12 w-12" width={32} height={32} priority/>
+                    <Image
+                      src="./logo-brand.svg"
+                      alt="N"
+                      className="h-12 w-12"
+                      width={32}
+                      height={32}
+                      priority
+                    />
                     <div className="text-base font-medium">
                       Kabinet Eskalasi Cita Udayana
                     </div>
@@ -95,8 +114,7 @@ export default function NavigationMenuDemo() {
                   key={component.title}
                   title={component.title}
                   href={component.href}
-                >
-                </ListItem>
+                ></ListItem>
               ))}
             </ul>
           </NavigationMenuContent>
