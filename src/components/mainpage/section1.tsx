@@ -8,7 +8,7 @@ export default function MeshGradient() {
       <h1 className="max-w-4xl lg:max-w-5xl text-center text-4xl font-extrabold tracking-tight md:text-6xl lg:text-7xl leading-snug">
         Jembatan pengantar aspirasi di kampus &quot;pewahyu rakyat&quot;
       </h1>
-      <p className="text-lg md:text-xl max-w-2xl">
+      <p className="text-base md:text-xl max-w-2xl text-center">
         Selamat datang di portal informasi Badan Eksekutif Mahasiswa Universitas
         Udayana
       </p>
