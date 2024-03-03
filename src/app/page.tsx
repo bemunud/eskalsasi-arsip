@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/navbar/page";
 import Footer from "@/components/footer";
 import PolygonGradient from "@/components/mainpage/section-one";
+import MeshGradient from "@/components/mainpage/section1";
 import Junk from "@/components/mainpage/section-two";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
         <Navbar />
       </header>
       <main className="flex min-h-screen flex-col items-center justify-between bg-primary">
-        <PolygonGradient/>
+        <MeshGradient/>
         <Junk/>
       </main>
       <footer className="w-full mx-auto">

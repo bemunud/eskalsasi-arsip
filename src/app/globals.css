@@ -18,3 +18,18 @@
   background: url(https://cdn.discordapp.com/attachments/1025050491551485997/1213491928218341376/heroku.png?ex=65f5ab6d&is=65e3366d&hm=fd1acfeb9b18ee6d3037c75509742d98ec1ab2e344d12ddd4b91834115b496b2&);
   background-size: cover;
 }
+
+.meshGradient {
+  background-color: #99e9ff;
+  background-image: radial-gradient(
+      at 46% 61%,
+      hsla(47, 90%, 66%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 58% 50%, hsla(265, 81%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 67% 98%, hsla(67, 94%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 17% 97%, hsla(354, 74%, 63%, 1) 0px, transparent 50%),
+    radial-gradient(at 89% 10%, hsla(187, 83%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 41% 34%, hsla(206, 69%, 64%, 1) 0px, transparent 50%),
+    radial-gradient(at 37% 94%, hsla(63, 98%, 77%, 1) 0px, transparent 50%);
+}

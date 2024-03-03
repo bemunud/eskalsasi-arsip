@@ -16,11 +16,11 @@ export default function Footer() {
               priority
               draggable="false"
             />
-            <label htmlFor="logo" className="text-lg font-bold">
+            <label htmlFor="logo" className="text-lg font-bold hidden md:inline">
               Badan Eksekutif Mahasiswa Universitas Udayana
             </label>
           </span>
-          <p className="text-xs font-medium">
+          <p className="text-sm font-medium">
             Kunjungi akun sosial media kami
           </p>
         </div>

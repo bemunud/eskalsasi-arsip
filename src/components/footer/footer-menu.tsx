@@ -17,12 +17,12 @@ export default function FooterMenu() {
             <span className="mx-1 h-[2px] w-[2px] rounded-full bg-black"></span>
             All right reserved
           </figcaption>
-          <div className="flex items-center justify-center lg:justify-evenly space-x-2 text-black py-5 lg:py-0 text-xs">
-            <Link href="/support">Kebijakan Privasi</Link>
+          <div className="flex items-center justify-center lg:justify-evenly space-x-2 font-medium py-5 lg:py-0 text-xs">
+            <Link href="/support" className="underline-offset-4 hover:underline">Kebijakan Privasi</Link>
             <span className="h-[2px] w-[2px] rounded-full bg-black"></span>
-            <Link href="/brand">Syarat Penggunaan</Link>
+            <Link href="/brand" className="underline-offset-4 hover:underline">Syarat Penggunaan</Link>
             <span className="h-[2px] w-[2px] rounded-full bg-black"></span>
-            <a href="#">Keamananan Informasi</a>
+            <Link href="#" className="underline-offset-4 hover:underline">Keamananan Informasi</Link>
           </div>
         </div>
       </section>
