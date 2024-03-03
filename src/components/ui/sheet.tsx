@@ -4,7 +4,7 @@ import * as React from "react";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { cva, type VariantProps } from "class-variance-authority";
 import { X } from "lucide-react";
-
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 const Sheet = SheetPrimitive.Root;
@@ -66,8 +66,15 @@ const SheetContent = React.forwardRef<
     >
       {children}
       <SheetPrimitive.Close className="absolute top-0 right-0 rounded-sm w-full transition-opacity hover:opacity-100">
-        <div className="fixed z-auto w-full h-auto py-3 bg-white flex justify-between cursor-default px-7">
-          <X className="h-7 w-7" />
+        <div className="fixed z-auto w-full h-auto py-3 bg-white flex justify-between items-center px-7 shadow-lg">
+          <Image
+            src={"./logo-brand.svg"}
+            alt="N"
+            className="w-10"
+            width={32}
+            height={32}
+            priority
+          />
           <div className="disabled:pointer-events-none data-[state=open]:bg-stone-900 dark:ring-offset-stone-950 dark:focus:ring-stone-300 dark:data-[state=open]:bg-stone-800">
             <X className="h-7 w-7" />
             <span className="sr-only">Close</span>

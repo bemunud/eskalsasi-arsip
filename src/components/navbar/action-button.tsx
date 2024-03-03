@@ -24,7 +24,7 @@ export default function ActionButtons() {
           <SheetContent>
             <SheetHeader>
               <SheetDescription>
-                <div className="flex flex-col space-y-6 items-start w-full text-lg text-black mt-10">
+                <div className="flex flex-col space-y-6 items-start w-full text-lg text-black mt-20">
                   <SheetTitle className="text-xl">Governance</SheetTitle>
                   <ul className="text-justify space-y-4 bg-stone-500 p-4 rounded-lg">
                     {GOVERNANCE.map((component) => (
