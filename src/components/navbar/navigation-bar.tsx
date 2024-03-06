@@ -77,7 +77,7 @@ export default function NavigationMenuDemo() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
-            <NavTriggerLink className="font-medium">Publikasi</NavTriggerLink>
+            <NavTriggerLink className="font-medium">Kajian</NavTriggerLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -86,7 +86,7 @@ export default function NavigationMenuDemo() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[700px] p-4 lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3 bg-slate-600 rounded-md mr-3">
+              <li className="row-span-3 bg-slate-300 rounded-md mr-3">
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-3 no-underline outline-none focus:shadow-md"
@@ -101,7 +101,7 @@ export default function NavigationMenuDemo() {
                       priority
                     />
                     <div className="text-base font-medium">
-                      Kabinet Eskalasi Cita Udayana
+                      Kabinet Eskalasi
                     </div>
                     <p className="text-xs leading-tight text-muted-foreground">
                       Sekilas tentang kabinet kami

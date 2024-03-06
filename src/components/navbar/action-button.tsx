@@ -26,12 +26,12 @@ export default function ActionButtons() {
               <SheetDescription>
                 <div className="flex flex-col space-y-6 items-start w-full text-lg text-black mt-20">
                   <SheetTitle className="text-xl">Governance</SheetTitle>
-                  <ul className="text-justify space-y-4 bg-stone-500 p-4 rounded-lg">
+                  <ul className="text-justify space-y-4 bg-white p-4 rounded-xl">
                     {GOVERNANCE.map((component) => (
                       <li key={component.title}>
                         <Link
                           href={`${component.href}`}
-                          className="block select-none bg-white space-y-1 rounded-md p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          className="block select-none bg-white space-y-1 rounded-xl p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-100"
                         >
                           <Image
                             src={`${component.icon}`}
