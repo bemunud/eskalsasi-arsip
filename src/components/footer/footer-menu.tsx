@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function FooterMenu() {
   return (
     <>
-      <section className="relative border-t-2 border-red-300 py-5 text-center text-xs font-medium md:px-0">
+      <section className="relative border-t-2 border-stone-500 py-5 text-center text-xs font-medium md:px-0">
         <div className="absolute inset-x-0 -top-3 flex items-center justify-center">
           <div className="relative flex h-10 w-14 justify-center">
             <div className="absolute inset-0 -top-[1px] h-full w-full rounded-full bg-white blur-[6px]"></div>

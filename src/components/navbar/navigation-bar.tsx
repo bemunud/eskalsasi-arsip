@@ -101,10 +101,10 @@ export default function NavigationMenuDemo() {
                       priority
                     />
                     <div className="text-base font-medium">
-                      Kabinet Eskalasi
+                      Tentang Kabinet{" "}
                     </div>
                     <p className="text-xs leading-tight text-muted-foreground">
-                      Sekilas tentang kabinet kami
+                      Sekilas tentang kabinet Eskalasi Cita Udayana
                     </p>
                   </a>
                 </NavigationMenuLink>
