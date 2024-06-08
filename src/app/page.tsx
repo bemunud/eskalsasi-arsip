@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar/page";
 import Footer from "@/components/footer";
-import PolygonGradient from "@/components/mainpage/section-one";
 import MeshGradient from "@/components/mainpage/section1";
 import Junk from "@/components/mainpage/section-two";
 
