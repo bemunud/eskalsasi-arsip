@@ -14,6 +14,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log(process.env.NOTION_ACCESS_TOKEN);
   return (
     <html lang="en">
       <body className={font.className}>{children}</body>
