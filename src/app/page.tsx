@@ -16,11 +16,11 @@ export default async function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between bg-primary">
         <MeshGradient />
         <BlogPreview />
-        {posts.results.map((post: any) => (
+        {/* {posts.results.map((post: any) => (
           <div key={post.id}>
             <Link href='#'>{post.properties.Name.title.plain_text}</Link>
           </div>
-        ))}
+        ))} */}
       </main>
       <footer className="w-full mx-auto">
         <Footer />
