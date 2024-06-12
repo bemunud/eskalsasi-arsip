@@ -9,7 +9,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 export default function Footer() {
   return (
     <section className="">
-      <div className="flex container flex-col md:flex-row py-5 mb-24">
+      <div className="flex container flex-col md:flex-row py-5 mb-24 gap-y-8">
         <div className="bg-inherit w-full grid gap-4">
           <span className="flex items-center space-x-3">
             <Image
@@ -25,7 +25,9 @@ export default function Footer() {
               htmlFor="logo"
               className="text-lg font-bold hidden md:inline"
             >
-              Badan Eksekutif Mahasiswa Universitas Udayana
+              Badan Eksekutif Mahasiswa
+              <br />
+              Universitas Udayana
             </label>
           </span>
           <p className="text-sm font-medium">Kunjungi akun sosial media kami</p>
