@@ -9,7 +9,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 export default function Footer() {
   return (
     <section className="">
-      <div className="flex container flex-col md:flex-row py-5">
+      <div className="flex container flex-col md:flex-row py-5 mb-24">
         <div className="bg-inherit w-full grid gap-4">
           <span className="flex items-center space-x-3">
             <Image
@@ -44,7 +44,14 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="bg-pink-700 w-full">tes</div>
+        <div className="bg-transparent w-full text-xs font-medium text-justify">
+          BEM Udayana adalah singkatan dari Badan Eksekutif Mahasiswa
+          Universitas Udayana. Organisasi ini merupakan lembaga eksekutif yang
+          mewakili mahasiswa di Universitas Udayana. Tugas utama BEM Udayana
+          adalah mengadvokasi kepentingan mahasiswa, mengorganisir
+          kegiatan-kegiatan mahasiswa, serta menjembatani komunikasi antara
+          mahasiswa dengan pihak universitas dan pemerintah.
+        </div>
       </div>
       <FooterMenu />
     </section>

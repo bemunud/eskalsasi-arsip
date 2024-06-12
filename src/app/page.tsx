@@ -9,7 +9,7 @@ export default async function Home() {
       <header className="fixed z-[20] w-full bg-white mx-auto">
         <Navbar />
       </header>
-      <main className="flex min-h-screen flex-col gap-y-24 bg-primary">
+      <main className="flex min-h-screen flex-col gap-y-24 bg-primary pb-32">
         <MeshGradient />
         <BlogPreview />
       </main>
