@@ -33,7 +33,7 @@ export default async function BlogPreview() {
             </div>
           ))}
         </div>
-        <Link href={"#"} className="flex items-center justify-center">
+        <Link href={"/blog"} className="flex items-center justify-center">
           <Button className="rounded-xl px-12 py-6 font-medium">Baca selengkapnya dari kami</Button>
         </Link>
       </section>

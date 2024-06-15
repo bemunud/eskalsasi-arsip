@@ -8,7 +8,14 @@ export default function FooterMenu() {
         <div className="absolute inset-x-0 -top-5 flex items-center justify-center">
           <div className="relative flex h-10 w-14 justify-center">
             <div className="absolute inset-0 -top-[1px] h-full w-full rounded-full bg-white blur-[6px]"></div>
-            <Image src={"./logo-anit.svg"} alt="logo brand" width={32} height={32} className="w-7 relative" priority/>
+            <Image
+              src={"./logo-anit.svg"}
+              alt="logo brand"
+              width={32}
+              height={32}
+              className="w-7 relative"
+              priority
+            />
           </div>
         </div>
         <div className="container mx-auto flex justify-between flex-col-reverse lg:flex-row">
@@ -18,11 +25,20 @@ export default function FooterMenu() {
             All right reserved
           </figcaption>
           <div className="flex items-center justify-center lg:justify-evenly space-x-2 font-medium py-5 lg:py-0">
-            <Link href="/support" className="underline-offset-4 hover:underline">Kebijakan Privasi</Link>
+            <Link
+              href="/support"
+              className="underline-offset-4 hover:underline"
+            >
+              Kebijakan Privasi
+            </Link>
             <span className="h-[2px] w-[2px] rounded-full bg-black"></span>
-            <Link href="/brand" className="underline-offset-4 hover:underline">Syarat Penggunaan</Link>
+            <Link href="/brand" className="underline-offset-4 hover:underline">
+              Syarat Penggunaan
+            </Link>
             <span className="h-[2px] w-[2px] rounded-full bg-black"></span>
-            <Link href="#" className="underline-offset-4 hover:underline">Keamananan Informasi</Link>
+            <Link href="#" className="underline-offset-4 hover:underline">
+              Keamananan Informasi
+            </Link>
           </div>
         </div>
       </section>
