@@ -25,7 +25,7 @@ export default function NavigationMenuDemo() {
             Governance
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-3 lg:w-[800px] ">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-3 lg:w-[800px]">
               {GOVERNANCE.map((component) => (
                 <li key={component.title}>
                   <Link

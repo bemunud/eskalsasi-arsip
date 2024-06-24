@@ -5,7 +5,7 @@ export default function LogoNavbar() {
   return (
     <Link href={"/"} className="flex items-center gap-4">
       <Image
-        src={"./logo-brand.svg"}
+        src={"/logo-brand.svg"}
         alt="N"
         className="w-10"
         width={32}

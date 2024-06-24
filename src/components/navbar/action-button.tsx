@@ -16,13 +16,14 @@ import Link from "next/link";
 export default function ActionButtons() {
   return (
     <div>
-      <div className="lg:hidden ">
+      <div className="lg:hidden">
         <Sheet>
           <SheetTrigger>
             <AlignLeft />
           </SheetTrigger>
           <SheetContent>
             <SheetHeader>
+              {/* desain nav harusnya disini */}
               <SheetDescription>
                 <div className="flex flex-col space-y-6 items-start w-full text-lg text-black mt-20">
                   <SheetTitle className="text-xl">Governance</SheetTitle>

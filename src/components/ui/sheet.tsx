@@ -65,8 +65,8 @@ const SheetContent = React.forwardRef<
       {...props}
     >
       {children}
-      <SheetPrimitive.Close className="absolute top-0 right-0 rounded-sm w-full transition-opacity hover:opacity-100">
-        <div className="fixed z-auto w-full h-auto py-3 bg-white flex justify-between items-center px-7 shadow-lg">
+      <SheetPrimitive.Close className="absolute top-0 -right-1 rounded-sm w-full transition-opacity hover:opacity-100">
+        <div className="fixed z-auto w-full h-auto py-3 bg-white flex justify-between items-center px-7">
           <Image
             src={"./logo-brand.svg"}
             alt="N"
@@ -75,7 +75,7 @@ const SheetContent = React.forwardRef<
             height={32}
             priority
           />
-          <div className="disabled:pointer-events-none data-[state=open]:bg-stone-900 dark:ring-offset-stone-950 dark:focus:ring-stone-300 dark:data-[state=open]:bg-stone-800">
+          <div className="disabled:pointer-events-none data-[state=open]:bg-stone-900">
             <X className="h-7 w-7" />
             <span className="sr-only">Close</span>
           </div>

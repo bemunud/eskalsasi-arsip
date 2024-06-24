@@ -9,7 +9,7 @@ export default function FooterMenu() {
           <div className="relative flex h-10 w-14 justify-center">
             <div className="absolute inset-0 -top-[1px] h-full w-full rounded-full bg-white blur-[6px]"></div>
             <Image
-              src={"./logo-anit.svg"}
+              src={"/logo-anit.svg"}
               alt="logo brand"
               width={32}
               height={32}

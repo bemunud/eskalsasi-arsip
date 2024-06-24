@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <span className="flex items-center space-x-3 border-r-2 border-black pr-4">
               <Image
-                src={"./logo-brand.svg"}
+                src={"/logo-brand.svg"}
                 alt="logo brand"
                 width={32}
                 height={32}
@@ -33,7 +33,7 @@ export default function Footer() {
             </span>
             <span className="flex items-center space-x-3">
               <Image
-                src={"./logoeskalasi-svg.svg"}
+                src={"/logoeskalasi-svg.svg"}
                 alt="logo brand"
                 width={32}
                 height={32}

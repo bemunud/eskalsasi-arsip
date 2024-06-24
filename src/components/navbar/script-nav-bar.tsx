@@ -47,7 +47,7 @@ export const ListItemGovernence = React.forwardRef<
           {...props}
         >
           <Image
-            src={"./Exclude.svg"}
+            src={"/Exclude.svg"}
             alt="N"
             width={32}
             height={32}
