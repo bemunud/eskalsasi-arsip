@@ -1,0 +1,25 @@
+<svg width="297" height="297" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 148.5C0 66.4857 66.4857 0 148.5 0C230.514 0 297 66.4857 297 148.5C297 230.514 230.514 297 148.5 297C66.4857 297 0 230.514 0 148.5Z" fill="url(#paint0_linear_65_842)"/>
+<rect x="160.456" y="100.721" width="35.7215" height="23.1139" transform="rotate(-90 160.456 100.721)" fill="white"/>
+<rect x="206.683" y="100.721" width="35.7215" height="23.1139" transform="rotate(-90 206.683 100.721)" fill="white"/>
+<rect x="114.228" y="100.721" width="35.7215" height="23.1139" transform="rotate(-90 114.228 100.721)" fill="white"/>
+<rect x="68" y="100.721" width="35.7215" height="23.1139" transform="rotate(-90 68 100.721)" fill="white"/>
+<rect x="86.3232" y="148.001" width="23.1139" height="23.1233" transform="rotate(-45 86.3232 148.001)" fill="white"/>
+<rect x="68" y="100.722" width="69.3417" height="23.1139" fill="white"/>
+<rect x="68" y="172.165" width="69.3417" height="23.1139" fill="white"/>
+<rect x="178.779" y="148.001" width="23.1139" height="23.1233" transform="rotate(-45 178.779 148.001)" fill="white"/>
+<rect x="137.342" y="119.633" width="23.1139" height="23.1233" fill="white"/>
+<rect x="137.342" y="155.354" width="23.1139" height="23.1233" fill="white"/>
+<rect x="160.456" y="172.164" width="46.2278" height="23.1139" fill="white"/>
+<rect x="206.683" y="172.165" width="23.1139" height="58.8354" fill="white"/>
+<rect x="160.456" y="231" width="35.7215" height="23.1139" transform="rotate(-90 160.456 231)" fill="white"/>
+<rect x="160.456" y="100.721" width="69.3417" height="23.1139" fill="white"/>
+<rect x="114.228" y="231" width="35.7215" height="23.1139" transform="rotate(-90 114.228 231)" fill="white"/>
+<rect x="68" y="231" width="35.7215" height="23.1139" transform="rotate(-90 68 231)" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_65_842" x1="198.378" y1="-14.1698" x2="36.2748" y2="285.664" gradientUnits="userSpaceOnUse">
+<stop stop-color="#012559"/>
+<stop offset="1" stop-color="#056BFF"/>
+</linearGradient>
+</defs>
+</svg>

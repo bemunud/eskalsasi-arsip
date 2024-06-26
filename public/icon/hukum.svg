@@ -1,0 +1,22 @@
+<svg width="297" height="297" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 148.5C0 66.4857 66.4857 0 148.5 0C230.514 0 297 66.4857 297 148.5C297 230.514 230.514 297 148.5 297C66.4857 297 0 230.514 0 148.5Z" fill="url(#paint0_linear_64_769)"/>
+<rect x="173.493" y="87.4381" width="23.4381" height="23.4286" transform="rotate(-90 173.493 87.4381)" fill="white"/>
+<rect x="67" y="87.4286" width="23.4286" height="164" transform="rotate(-90 67 87.4286)" fill="white"/>
+<rect x="101.078" y="136.416" width="23.4286" height="59.6364" fill="white"/>
+<rect x="67" y="64" width="23.4286" height="59.6364" fill="white"/>
+<rect x="67" y="172.624" width="23.4286" height="59.6364" fill="white"/>
+<rect x="173.493" y="136.416" width="23.4286" height="59.6364" fill="white"/>
+<rect x="137.286" y="64" width="23.4286" height="95.8442" fill="white"/>
+<rect x="137.286" y="136.416" width="23.4286" height="23.4381" fill="white"/>
+<rect x="124.506" y="172.623" width="48.987" height="23.4286" fill="white"/>
+<rect x="207.571" y="172.624" width="23.4286" height="59.6364" fill="white"/>
+<rect x="124.506" y="232.26" width="23.4286" height="72.4156" transform="rotate(-90 124.506 232.26)" fill="white"/>
+<rect x="207.571" y="64" width="23.4286" height="59.6364" fill="white"/>
+<rect x="101.078" y="232.26" width="23.4381" height="23.4286" transform="rotate(-90 101.078 232.26)" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_64_769" x1="198.378" y1="-14.1698" x2="36.2748" y2="285.664" gradientUnits="userSpaceOnUse">
+<stop stop-color="#012559"/>
+<stop offset="1" stop-color="#056BFF"/>
+</linearGradient>
+</defs>
+</svg>
