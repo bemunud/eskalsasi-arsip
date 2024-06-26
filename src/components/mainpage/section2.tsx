@@ -47,7 +47,7 @@ export default function MarqueeSlider() {
       <h2 className="font-extrabold text-lg text-center text-slate-400">
         Terdapat beberapa kementerian dan biro diberbagai bidang yang hadir di BEM Udayana saat ini
       </h2>
-      <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden py-12 bg-primary">
+      <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden py-12 bg-primary ">
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
