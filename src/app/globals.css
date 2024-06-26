@@ -15,16 +15,16 @@
 }
 
 .meshGradient {
-  background-color: #ec99ff;
+  background-color: #056BFF;
   background-image: radial-gradient(
       at 18% 48%,
-      hsla(279, 82%, 69%, 1) 0px,
+      #f6fafe 0px,
       transparent 50%
     ),
-    radial-gradient(at 38% 96%, hsla(249, 87%, 68%, 1) 0px, transparent 50%),
-    radial-gradient(at 50% 43%, hsla(25, 90%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 22% 76%, hsla(232, 73%, 71%, 1) 0px, transparent 50%),
-    radial-gradient(at 15% 70%, hsla(78, 78%, 63%, 1) 0px, transparent 50%),
-    radial-gradient(at 71% 42%, hsla(358, 90%, 76%, 1) 0px, transparent 50%),
-    radial-gradient(at 23% 58%, hsla(41, 80%, 66%, 1) 0px, transparent 50%);
+    radial-gradient(at 38% 96%, #2891ff 0px, transparent 50%),
+    radial-gradient(at 50% 43%, #88cfff 0px, transparent 50%),
+    radial-gradient(at 22% 76%, #134195 0px, transparent 50%),
+    radial-gradient(at 15% 70%, #0f49be 0px, transparent 50%),
+    radial-gradient(at 71% 42%, #f6fafe 0px, transparent 50%),
+    radial-gradient(at 23% 58%, #012559 0px, transparent 50%);
 }

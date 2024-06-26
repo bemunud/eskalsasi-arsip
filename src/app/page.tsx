@@ -2,6 +2,7 @@ import Footer from "@/components/footer";
 import BlogPreview from "@/components/mainpage/blog";
 import MeshGradient from "@/components/mainpage/section1";
 import Navbar from "@/components/navbar/page";
+import MarqueeSlider from "@/components/mainpage/section2";
 
 export default async function Home() {
   return (
@@ -11,6 +12,7 @@ export default async function Home() {
       </header>
       <main className="flex min-h-screen flex-col gap-y-24 bg-primary pb-32">
         <MeshGradient />
+        <MarqueeSlider />
         <BlogPreview />
       </main>
       <footer className="w-full mx-auto">
