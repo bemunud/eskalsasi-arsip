@@ -14,7 +14,7 @@ export default function MeshGradient() {
           Selamat datang di portal informasi Badan Eksekutif Mahasiswa
           Universitas Udayana
         </p>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 flex-col md:flex-row">
           <Button className="bg-black">Baca kajian terakhir</Button>
           <Button variant="outline">Lihat Pengumuman</Button>
         </div>
