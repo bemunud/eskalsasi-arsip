@@ -1,4 +1,6 @@
-import React, { CSSProperties } from "react";
+"use client"
+
+import React, { CSSProperties, use } from "react";
 
 // Modify these
 const MAIN_CIRCLE_SIZE = 314;
