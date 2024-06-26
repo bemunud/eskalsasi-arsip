@@ -1,6 +1,5 @@
-"use client";
-
-import { Button } from "../ui/button";
+import Link from "next/link";
+import { Button, buttonVariants } from "../ui/button";
 import Ripple from "../magicui/ripple";
 
 export default function MeshGradient() {
@@ -15,8 +14,8 @@ export default function MeshGradient() {
           Universitas Udayana
         </p>
         <div className="flex items-center gap-4 flex-col md:flex-row">
-          <Button className="bg-black">Baca kajian terakhir</Button>
-          <Button variant="outline">Lihat Pengumuman</Button>
+          <Link href={"#"} className={buttonVariants({variant : "eskalasi", className : "w-96 md:w-auto", size : "lg"})}>Baca Kajian Terakhir</Link>
+          <Link href={"#"} className={buttonVariants({variant : "outline", className : "w-96 md:w-auto", size : "lg"})}>Lihat Pengumuman</Link>
         </div>
       </div>
       <Ripple />

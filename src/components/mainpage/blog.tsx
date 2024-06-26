@@ -69,7 +69,7 @@ export default async function BlogPreview() {
         <Link href={"/blog"} className="flex items-center justify-center">
           <Button
             className="rounded-xl px-12 py-6 font-medium"
-            variant={"esklasi"}
+            variant={"eskalasi_scale"}
           >
             Baca selengkapnya dari kami
           </Button>
