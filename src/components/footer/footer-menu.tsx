@@ -26,18 +26,10 @@ export default function FooterMenu() {
           </figcaption>
           <div className="flex items-center justify-center lg:justify-evenly space-x-2 font-medium py-5 lg:py-0">
             <Link
-              href="/support"
+              href="/press-kit"
               className="underline-offset-4 hover:underline"
             >
-              Kebijakan Privasi
-            </Link>
-            <span className="h-[2px] w-[2px] rounded-full bg-black"></span>
-            <Link href="/brand" className="underline-offset-4 hover:underline">
-              Syarat Penggunaan
-            </Link>
-            <span className="h-[2px] w-[2px] rounded-full bg-black"></span>
-            <Link href="#" className="underline-offset-4 hover:underline">
-              Keamananan Informasi
+              Press Kit
             </Link>
           </div>
         </div>
