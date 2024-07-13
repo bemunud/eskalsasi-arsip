@@ -58,12 +58,12 @@ export default function MarqueeSlider() {
         BEM Udayana saat ini
       </h2>
       <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden py-5 bg-primary ">
-        <Marquee pauseOnHover className="[--duration:20s]">
+        <Marquee className="[--duration:48s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s]">
+        <Marquee reverse className="[--duration:49s]">
           {secondRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}

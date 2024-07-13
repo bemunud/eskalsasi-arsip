@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Next.js",
+    title: "BEM Udayana - Pengantar aspirasi Mahasiswa Universitas Udayana",
     description: "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Yuk bersuara! ",
     url: "https://bemunud.id/",
     siteName: "Bem Unud",
