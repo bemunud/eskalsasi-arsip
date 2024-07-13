@@ -6,7 +6,7 @@ export default function MeshGradient() {
   return (
     <section className="relative flex h-full w-full items-center overflow-hidden justify-center xl:h-[48rem] flex-col meshGradient">
       <div className="z-10 w-full h-screen xl:h-[48rem] flex flex-col items-center justify-center gap-7">
-        <h1 className="max-w-4xl lg:max-w-5xl text-black text-center text-4xl font-extrabold tracking-tight md:text-6xl lg:text-7xl leading-snug">
+        <h1 className="max-w-screen-md lg:max-w-screen-lg text-black text-center text-4xl font-extrabold md:text-5xl lg:text-6xl">
           Jembatan pengantar aspirasi di kampus &quot;pewahyu rakyat&quot;
         </h1>
         <p className="text-base md:text-xl max-w-2xl text-center">

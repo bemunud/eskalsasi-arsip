@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { fetchPages } from "@/lib/notion";
 import Link from "next/link";
 import { Button } from "../ui/button";
@@ -25,12 +25,15 @@ export default async function BlogPreview() {
                       className="flex gap-8 py-3 flex-col lg:flex-row"
                       href={`/blog/${post.properties.slug.rich_text[0].plain_text}`}
                     >
-                      <div
-                        className="bg-cover bg-center w-full h-64 lg:w-64 lg:h-32 rounded-lg"
-                        style={{
-                          backgroundImage: `url(${post.cover.file.url || post.cover.external.url})`,
-                        }}
-                      ></div>
+                      <Image
+                        src={post.cover.file.url}
+                        alt={`cover ${post.properties.Title.title[0].plain_text}`}
+                        width={500}
+                        height={500}
+                        className="rounded-lg md:w-64 md:h-auto"
+                        priority
+                      />
+
                       <div className="flex flex-col justify-start md:justify-center items-start align-middle w-auto gap-1">
                         <h1 className="font-extrabold text-2xl text-start md:text-center text-black">
                           {post.properties.Title.title[0].plain_text}
