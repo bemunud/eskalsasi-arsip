@@ -8,6 +8,9 @@
   .bg-primary {
     @apply bg-[#f6fafe];
   }
+  .bg-secondary {
+    @apply bg-[#515355];
+  }
 }
 
 * {

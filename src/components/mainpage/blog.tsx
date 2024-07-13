@@ -22,17 +22,19 @@ export default async function BlogPreview() {
                   {posts.results.slice(0, 3).map((post: any) => (
                     <Link
                       key={post.id}
-                      className="flex gap-8 py-3 flex-col lg:flex-row"
+                      className="flex gap-8 py-3 flex-col lg:flex-row hover:bg-[#e1e6ea] hover:shadow-lg rounded-lg transition-all duration-300 ease-in-out focus:outline-none focus:ring focus:ring-[#515355] focus:ring-opacity-50"
                       href={`/blog/${post.properties.slug.rich_text[0].plain_text}`}
                     >
-                      <Image
-                        src={post.cover.file.url}
-                        alt={`cover ${post.properties.Title.title[0].plain_text}`}
-                        width={500}
-                        height={500}
-                        className="rounded-lg md:w-64 md:h-auto"
-                        priority
-                      />
+                      <div className="flex justify-center">
+                        <Image
+                          src={post.cover.file.url}
+                          alt={`cover ${post.properties.Title.title[0].plain_text}`}
+                          width={300}
+                          height={300}
+                          className="rounded-lg md:w-64 md:h-auto"
+                          priority
+                        />
+                      </div>
 
                       <div className="flex flex-col justify-start md:justify-center items-start align-middle w-auto gap-1">
                         <h1 className="font-extrabold text-2xl text-start md:text-center text-black">
