@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  metadataBase: new URL('https://bemunud.id/'),
   openGraph: {
     title: "BEM Udayana - Pengantar aspirasi Mahasiswa Universitas Udayana",
     description: "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Yuk bersuara! ",
