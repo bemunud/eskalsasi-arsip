@@ -9,87 +9,98 @@ export const GOVERNANCE: {
     title: "Kantor Staf Presiden",
     href: "/docs/primitives/tooltip",
     description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      `Kepala Staf Presiden adalah Kepengurusan Non Struktural yang ada di Kabinet Eskalasi
+Cita Udayana. KSP Merupakan Perpanjangan tangan dari Presiden dan Wakil Presiden Badan
+Eksekutif Mahasiswa Universitas Udayana dalam menjalankan visi misi Eskalasi Cita Udayana
+KSP mempunyai bidang fungsi diantaranya yaitu analisis isu protokoler, manajemen pres
+wapres,dan relasi. KSP membantu PRESMA dan WAPRESMA dalam menjalankan fungsi di
+Internal maupun eksternal`,
   },
   {
     icon: "/icon/satuan-pengendali-internal.svg",
     title: "Satuan Pengendali Internal",
     href: "/docs/primitives/alert-dialog",
-    description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
+    description: `Bertugas untuk memastikan bahwa operasi dan kegiatan ormawa berjalan sesuai dengan
+            prosedur, kebijakan, serta standar yang telah ditetapkan. Fungsi utamanya adalah untuk
+            mengawasi dan menilai efektivitas serta efisiensi manajemen dan penggunaan sumber daya
+            dalam ormawa. SPI juga bertanggung jawab untuk memberikan rekomendasi perbaikan atau
+            saran kepada pengurus ormawa untuk meningkatkan tata kelola dan kinerja organisasi.`,
   },
   {
     icon: "/icon/pengurus-harian.svg",
-    title: "Pengurus Harian",
+    title: "Badan Pengurus Harian",
     href: "/docs/primitives/hover-card",
-    description:
-      "For sighted users to preview content available behind a link.",
+    description: `Bertanggung jawab atas operasional harian ormawa, seperti koordinasi rapat, pengawasan
+kegiatan, dan administrasi. Menyelenggarakan keputusan dan kebijakan yang telah disetujui oleh
+organisasi. Mengkoordinasikan kegiatan antar departemen atau divisi dalam ormawa untuk
+memastikan konsistensi dan sinergi. Menjadi jembatan komunikasi antara anggota
+ormawa.Bertanggung jawab atas operasional harian ormawa, seperti koordinasi rapat,
+pengawasan kegiatan, dan administrasi. Menyelenggarakan keputusan dan kebijakan yang telah
+disetujui oleh organisasi. Mengkoordinasikan kegiatan antar departemen atau divisi dalam
+ormawa untuk memastikan konsistensi dan sinergi. Menjadi jembatan komunikasi antara anggota
+ormawa.`,
   },
   {
     icon: "/icon/kemahasiswaan.svg",
     title: "Kemahasiswaan",
     href: "/docs/primitives/hover-card",
-    description:
-      "For sighted users to preview content available behind a link.",
+    description: `Menjadi garda terdepan dalam pemenuhan kebutuhan fasilitas mahasiswa dalam
+kehidupan berkampus di Udayana baik untuk short-term serta long-term effect untuk
+menciptakan rasa nyaman serta aman bagi mahasiswa melalui kegiatan yang sustainable baik
+dengan program kerja ataupun program elaborasi.`,
   },
   {
     icon: "/icon/kemasyarakatan.svg",
     title: "Kemasyarakatan",
     href: "/docs/primitives/progress",
-    description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+    description: `Bergerak dalam ruang lingkup sosial dan kemasyarakatan yang berkontribusi pada
+pemberdayaan masyarakat sekitar, terhusus desa yang betul membutuhkan perhatian dan
+pemberdayaan. Lalu pada aspek sosial tentunya turut menumbuhkan rasa kepedulian dan
+memberikan akses dan ruang untuk melatih intelek emosional mahasiswa.`,
   },
   {
     icon: "/icon/relasi-dan-harmonisasi-hubungan.svg",
     title: "Relasi & Harmonisasi Hubungan",
     href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
+    description: `Media sinergi untuk Badan Eksekutif Mahasiswa dalam menjalin hubungan antar
+organisasi mahasiswa di luar dan di dalam lingkup Universitas Udayana serta membersamai
+proses hubungan dengan pendekatan harmonis.`,
   },
   {
     icon: "/icon/minat-bakat-dan-prestasi.svg",
     title: "Minat, Bakat, & Prestasi",
     href: "/docs/primitives/tabs",
-    description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+    description: `Hadir sebagai wadah pemenuhan mahasiswa dalam berekspresi mengembangkan potensi
+diri di berbagai macam jenis aspek minat dan bakat, baik itu adalah bakat kognitif, seni dan
+olahraga. Lalu sebagai penyalur minat para mahasiswa yang memiliki keinginan untuk
+mempelajari hal baru pada aspek bakat yang telah disebutkan.
+`,
   },
   {
     icon: "/icon/analisis-dan-pergerakan.svg",
     title: "Analisis & Pergerakan",
     href: "/docs/primitives/tooltip",
-    description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+    description: `Bergerak sebagai ujung tombak dan garda terdepan dalam menyuarakan segala aspirasi
+dan keresahan yang terstruktur dan ilmiah berdasarkan kajian. Dan mampu Menjadi pencerdas
+isu sosial dan politik kepada masyarakat dan mahasiswa secara luas melalui propaganda
+media-media.`,
   },
 ];
 
 export const AUDIT: { title: string; href: string; description: string }[] = [
   {
-    title: "JDIH",
-    href: "/",
-    description: "pass",
-  },
-  {
-    title: "LPJ Paruh Waktu (Quartal)",
-    href: "/",
-    description: "pass",
-  },
-  {
-    title: "LPJ Setahun",
-    href: "/",
-    description: "pass",
-  },
-  {
     title: "Laporan Keuangan",
-    href: "/",
+    href: "/path/to/laporan-keuangan.pdf",
     description: "pass",
   },
   {
-    title: "Laporan Evaluasi DPM",
-    href: "/",
-    description: "pass",
+    title: "Laporan 100 hari kerja",
+    href: "/p/laporan-100-hari-kerja.pdf",
+    description: "Transparansi 100 hari kerja BEM Udayana",
   },
 ];
 
-export const TENTANG: { title: string; href: string;}[] = [
+export const TENTANG: { title: string; href: string }[] = [
   {
     title: "Tentang BEM",
     href: "/",

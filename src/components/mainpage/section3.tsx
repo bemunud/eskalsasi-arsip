@@ -22,9 +22,9 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative w-64 overflow-hidden rounded-xl border p-4",
         // light styles
-        "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]"
+        "border-gray-950/[.1] bg-gray-950/[.01]"
         // dark styles
         // "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
       )}
@@ -58,12 +58,12 @@ export default function MarqueeSlider() {
         BEM Udayana saat ini
       </h2>
       <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden py-5 bg-primary ">
-        <Marquee className="[--duration:48s]">
+        <Marquee className="[--duration:52s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
-        <Marquee reverse className="[--duration:49s]">
+        <Marquee reverse className="[--duration:52s]">
           {secondRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
