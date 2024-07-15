@@ -87,16 +87,18 @@ media-media.`,
   },
 ];
 
-export const AUDIT: { title: string; href: string; description: string }[] = [
+export const AUDIT: { title: string; href: string; description: string; target: string; }[] = [
   {
     title: "Laporan Keuangan",
     href: "/path/to/laporan-keuangan.pdf",
     description: "pass",
+    target: "_self",
   },
   {
     title: "Laporan 100 hari kerja",
-    href: "/p/laporan-100-hari-kerja.pdf",
+    href: "https://drive.google.com/file/d/1hqrsnI3tur_h--66riUbK-3gKKllgw8o/view?usp=sharing",
     description: "Transparansi 100 hari kerja BEM Udayana",
+    target: "_blank",
   },
 ];
 

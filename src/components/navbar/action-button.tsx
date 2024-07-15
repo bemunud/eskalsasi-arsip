@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { GOVERNANCE, AUDIT, TENTANG } from "@/scripts";
 import {
   Sheet,
@@ -12,6 +11,8 @@ import { ArrowUpRight } from "lucide-react";
 import { AlignLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaTiktok, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export default function ActionButtons() {
   return (
@@ -111,9 +112,21 @@ export default function ActionButtons() {
       </div>
 
       <div className="hidden lg:flex lg:space-x-4">
-        <Button className="text-sm font-semibold" variant="link">
-          Hubungi Kami
-        </Button>
+        <Link href={"https://web.facebook.com/bemudayana"} target="_blank">
+          <FaFacebook />
+        </Link>
+        <Link href={"https://x.com/BEM_Udayana"} target="_blank">
+          <FaXTwitter />
+        </Link>
+        <Link href={"https://www.instagram.com/bem_udayana/"} target="_blank">
+          <FaInstagram />
+        </Link>
+        <Link href={"https://www.tiktok.com/@bem_udayana"} target="_blank">
+          <FaTiktok />
+        </Link>
+        <Link href={"https://www.linkedin.com/company/bemudayana/"} target="_blank">
+          <FaLinkedin />
+        </Link>
       </div>
     </div>
   );

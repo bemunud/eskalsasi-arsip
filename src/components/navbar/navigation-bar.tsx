@@ -63,6 +63,7 @@ export default function NavigationMenuDemo() {
                   key={component.title}
                   title={component.title}
                   href={component.href}
+                  target={component.target}
                 >
                   {component.description}
                 </ListItem>
@@ -71,13 +72,8 @@ export default function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
-            <NavTriggerLink className="font-medium">Berita </NavTriggerLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
-            <NavTriggerLink className="font-medium">Kajian</NavTriggerLink>
+          <Link href="/blog" legacyBehavior passHref>
+            <NavTriggerLink className="font-medium">Informasi Terkini</NavTriggerLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>

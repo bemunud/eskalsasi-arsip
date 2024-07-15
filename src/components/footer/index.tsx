@@ -1,10 +1,6 @@
 import FooterMenu from "./footer-menu";
 import Image from "next/image";
 import Link from "next/link";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -51,20 +47,6 @@ export default function Footer() {
             </span>
           </div>
           <p className="text-sm font-medium">Kunjungi akun sosial media kami</p>
-          <div className="flex items-center gap-x-4">
-            <Link href={"#"}>
-              <FaXTwitter />
-            </Link>
-            <Link href={"#"}>
-              <FaFacebook />
-            </Link>
-            <Link href={"#"}>
-              <FaInstagram />
-            </Link>
-            <Link href={"#"}>
-              <FaTelegramPlane />
-            </Link>
-          </div>
         </div>
         <div className="bg-transparent w-full text-xs font-medium text-justify">
           BEM Udayana adalah singkatan dari Badan Eksekutif Mahasiswa

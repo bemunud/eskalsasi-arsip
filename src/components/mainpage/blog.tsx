@@ -29,8 +29,8 @@ export default async function BlogPreview() {
                         <Image
                           src={post.cover.file.url}
                           alt={`cover ${post.properties.Title.title[0].plain_text}`}
-                          width={300}
-                          height={300}
+                          width={200}
+                          height={200}
                           className="rounded-lg md:w-64 md:h-auto"
                           priority
                         />
