@@ -15,13 +15,13 @@ export const ListItem = React.forwardRef<
         <a
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
+            "hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-stone-200",
+            className,
           )}
           {...props}
         >
           <div className="text-sm font-semibold leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+          <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
             {children}
           </p>
         </a>
@@ -41,8 +41,8 @@ export const ListItemGovernence = React.forwardRef<
         <a
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
+            "hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-stone-200",
+            className,
           )}
           {...props}
         >
@@ -51,11 +51,11 @@ export const ListItemGovernence = React.forwardRef<
             alt="N"
             width={32}
             height={32}
-            className="w-5 my-3"
+            className="my-3 w-5"
             priority
           />
           <div className="text-sm font-semibold leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+          <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
             {children}
           </p>
         </a>

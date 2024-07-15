@@ -4,7 +4,7 @@ import NavigationMenuDemo from "./navigation-bar";
 
 export default function Navbar() {
   return (
-    <nav className="container bg-inherit items-center justify-between mx-auto py-3 flex">
+    <nav className="container mx-auto flex items-center justify-between bg-inherit py-3">
       <LogoNavbar />
       <NavigationMenuDemo />
       <ActionButtons />

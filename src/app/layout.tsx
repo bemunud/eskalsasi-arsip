@@ -15,10 +15,11 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://bemunud.id/'),
+  metadataBase: new URL("https://bemunud.id/"),
   openGraph: {
     title: "BEM Udayana - Pengantar aspirasi Mahasiswa Universitas Udayana",
-    description: "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Yuk bersuara! ",
+    description:
+      "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Yuk bersuara! ",
     url: "https://bemunud.id/",
     siteName: "Bem Unud",
     images: [
@@ -38,12 +39,12 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: '/favicon-ico/favicon-16x16.png',
-    shortcut: '/favicon-ico/favicon-32x32.png',
-    apple: '/favicon-ico/apple-touch-icon.png',
+    icon: "/favicon-ico/favicon-16x16.png",
+    shortcut: "/favicon-ico/favicon-32x32.png",
+    apple: "/favicon-ico/apple-touch-icon.png",
     other: {
-      rel: 'favicon-ico/apple-touch-icon',
-      url: '/favicon-ico/apple-touch-icon.png',
+      rel: "favicon-ico/apple-touch-icon",
+      url: "/favicon-ico/apple-touch-icon.png",
     },
   },
 };

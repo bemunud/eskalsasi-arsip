@@ -24,7 +24,7 @@ const ReviewCard = ({
       className={cn(
         "relative w-64 overflow-hidden rounded-xl border p-4",
         // light styles
-        "border-gray-950/[.1] bg-gray-950/[.01]"
+        "border-gray-950/[.1] bg-gray-950/[.01]",
         // dark styles
         // "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
       )}
@@ -49,15 +49,15 @@ const ReviewCard = ({
 
 export default function MarqueeSlider() {
   return (
-    <section className="w-full flex flex-col gap-2 container justify-center items-center">
-      <h2 className="font-extrabold text-3xl md:text-4xl text-center text-black">
+    <section className="container flex w-full flex-col items-center justify-center gap-2">
+      <h2 className="text-center text-3xl font-extrabold text-black md:text-4xl">
         Lanskap Kementerian & Biro BEM Udayana
       </h2>
-      <h2 className="font-medium text-sm md:text-lg max-w-3xl text-balance text-center text-[#D4D7DB]">
+      <h2 className="max-w-3xl text-balance text-center text-sm font-medium text-[#D4D7DB] md:text-lg">
         Terdapat beberapa kementerian dan biro diberbagai bidang yang hadir di
         BEM Udayana saat ini
       </h2>
-      <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden py-5 bg-primary ">
+      <div className="bg-primary relative flex h-full w-full flex-col items-center justify-center overflow-hidden py-5">
         <Marquee className="[--duration:52s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />

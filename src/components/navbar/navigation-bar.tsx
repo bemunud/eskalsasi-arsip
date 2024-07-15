@@ -30,7 +30,7 @@ export default function NavigationMenuDemo() {
                 <li key={component.title}>
                   <Link
                     href={`${component.href}`}
-                    className="block select-none bg-white space-y-1 rounded-md p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                    className="hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200"
                   >
                     <Image
                       src={`${component.icon}`}
@@ -43,7 +43,7 @@ export default function NavigationMenuDemo() {
                     <div className="text-sm font-semibold leading-none">
                       {component.title}
                     </div>
-                    <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                    <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
                       {component.description}
                     </p>
                   </Link>
@@ -57,7 +57,7 @@ export default function NavigationMenuDemo() {
             Audit
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-3 lg:w-[600px] ">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-3 lg:w-[600px]">
               {AUDIT.map((component) => (
                 <ListItem
                   key={component.title}
@@ -73,7 +73,9 @@ export default function NavigationMenuDemo() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/blog" legacyBehavior passHref>
-            <NavTriggerLink className="font-medium">Informasi Terkini</NavTriggerLink>
+            <NavTriggerLink className="font-medium">
+              Informasi Terkini
+            </NavTriggerLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -82,10 +84,10 @@ export default function NavigationMenuDemo() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[700px] p-4 lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3 bg-slate-300 rounded-md mr-3">
+              <li className="row-span-3 mr-3 rounded-md bg-slate-300">
                 <NavigationMenuLink asChild>
                   <a
-                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-3 no-underline outline-none focus:shadow-md"
+                    className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-3 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
                     <Image
@@ -99,7 +101,7 @@ export default function NavigationMenuDemo() {
                     <div className="text-base font-medium">
                       Tentang Kabinet{" "}
                     </div>
-                    <p className="text-xs leading-tight text-muted-foreground">
+                    <p className="text-muted-foreground text-xs leading-tight">
                       Sekilas tentang kabinet Eskalasi Cita Udayana
                     </p>
                   </a>

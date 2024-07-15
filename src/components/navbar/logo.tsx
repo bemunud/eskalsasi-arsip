@@ -12,7 +12,7 @@ export default function LogoNavbar() {
         height={32}
         priority
       />
-      <span className="text-xl font-semibold hidden lg:inline">
+      <span className="hidden text-xl font-semibold lg:inline">
         BEM Udayana
       </span>
     </Link>

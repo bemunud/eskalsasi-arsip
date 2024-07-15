@@ -8,8 +8,7 @@ export const GOVERNANCE: {
     icon: "/icon/pengurus-inti.svg",
     title: "Kantor Staf Presiden",
     href: "/docs/primitives/tooltip",
-    description:
-      `Kepala Staf Presiden adalah Kepengurusan Non Struktural yang ada di Kabinet Eskalasi
+    description: `Kepala Staf Presiden adalah Kepengurusan Non Struktural yang ada di Kabinet Eskalasi
 Cita Udayana. KSP Merupakan Perpanjangan tangan dari Presiden dan Wakil Presiden Badan
 Eksekutif Mahasiswa Universitas Udayana dalam menjalankan visi misi Eskalasi Cita Udayana
 KSP mempunyai bidang fungsi diantaranya yaitu analisis isu protokoler, manajemen pres
@@ -87,7 +86,12 @@ media-media.`,
   },
 ];
 
-export const AUDIT: { title: string; href: string; description: string; target: string; }[] = [
+export const AUDIT: {
+  title: string;
+  href: string;
+  description: string;
+  target: string;
+}[] = [
   {
     title: "Laporan Keuangan",
     href: "/path/to/laporan-keuangan.pdf",

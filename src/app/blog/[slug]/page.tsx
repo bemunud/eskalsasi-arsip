@@ -30,12 +30,12 @@ export default async function renderProse({
 
   return (
     <>
-      <header className="fixed z-[20] w-full bg-white top-0 mx-auto">
+      <header className="fixed top-0 z-[20] mx-auto w-full bg-white">
         <Navbar />
       </header>
-      <main className="min-h-screen flex justify-center py-24 bg-primary">
-        <section className="flex flex-col container justify-center gap-y-10 mx-auto">
-          <h1 className="text-center font-bold text-lg">
+      <main className="bg-primary flex min-h-screen justify-center py-24">
+        <section className="container mx-auto flex flex-col justify-center gap-y-10">
+          <h1 className="text-center text-lg font-bold">
             {post.properties.Title.title[0].plain_text}
           </h1>
           <Avatar>
@@ -48,29 +48,29 @@ export default async function renderProse({
               alt={`cover ${post.properties.Title.title[0].plain_text}`}
               width={500}
               height={500}
-              className="rounded-lg w-full md:prose"
+              className="w-full rounded-lg md:prose"
               priority
             />
           </div>
           <div
-            className="prose text-justify mx-auto"
+            className="prose mx-auto text-justify"
             dangerouslySetInnerHTML={{ __html: html }}
           ></div>
-          <div className="bg-white rounded-lg prose mx-auto p-3 w-full">
+          <div className="prose mx-auto w-full rounded-lg bg-white p-3">
             <div className="flex flex-col gap-3">
-              <span className="text-sm font-bold w-fit">Author</span>
-              <div className="flex gap-3 items-center">
+              <span className="w-fit text-sm font-bold">Author</span>
+              <div className="flex items-center gap-3">
                 <Avatar>
                   <AvatarImage src={`https://github.com/shadcn.png`} />
                   <AvatarFallback>EC</AvatarFallback>
                 </Avatar>
                 <div className="flex flex-col">
-                  <span className="text-sm font-medium text-balance">
+                  <span className="text-balance text-sm font-medium">
                     {post.properties.Author.select.name}
                   </span>
                   <div className="text-xs font-medium">
                     {new Date(
-                      post.properties.Date.created_time
+                      post.properties.Date.created_time,
                     ).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",
@@ -83,7 +83,7 @@ export default async function renderProse({
           </div>
         </section>
       </main>
-      <footer className="w-full mx-auto">
+      <footer className="mx-auto w-full">
         <Footer />
       </footer>
     </>

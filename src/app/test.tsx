@@ -10,14 +10,14 @@ export default async function Home() {
   // const posts: any = await fetchPages();
   return (
     <>
-      <header className="fixed z-[20] w-full bg-white mx-auto">
+      <header className="fixed z-[20] mx-auto w-full bg-white">
         <Navbar />
       </header>
-      <main className="flex min-h-screen flex-col items-center justify-between bg-primary">
+      <main className="bg-primary flex min-h-screen flex-col items-center justify-between">
         <MeshGradient />
         <BlogPreview />
       </main>
-      <footer className="w-full mx-auto">
+      <footer className="mx-auto w-full">
         <Footer />
       </footer>
     </>
