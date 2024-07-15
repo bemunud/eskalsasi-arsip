@@ -8,6 +8,7 @@ import {
 
 export const notion = new Client({
   auth: process.env.NOTION_SECRET,
+  timeoutMs: 60 * 1000,
 });
 
 export const fetchPages = React.cache(() => {

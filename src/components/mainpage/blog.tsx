@@ -32,13 +32,13 @@ export default async function BlogPreview() {
                           alt={`cover ${post.properties.Title.title[0].plain_text}`}
                           width={200}
                           height={200}
-                          className="rounded-lg md:h-auto md:w-64"
+                          className="rounded-lg w-full md:h-auto md:w-64"
                           priority
                         />
                       </div>
 
                       <div className="flex w-auto flex-col items-start justify-start gap-1 align-middle md:justify-center">
-                        <h1 className="text-start text-2xl font-extrabold text-black md:text-center">
+                        <h1 className="text-start text-2xl font-extrabold text-black">
                           {post.properties.Title.title[0].plain_text}
                         </h1>
                         {post.properties.Tags.multi_select.map((tag: any) => (
