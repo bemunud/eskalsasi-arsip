@@ -7,7 +7,7 @@ export const GOVERNANCE: {
   {
     icon: "/icon/pengurus-inti.svg",
     title: "Kantor Staf Presiden",
-    href: "/docs/primitives/tooltip",
+    href: "/ksp",
     description: `Kepala Staf Presiden adalah Kepengurusan Non Struktural yang ada di Kabinet Eskalasi
 Cita Udayana. KSP Merupakan Perpanjangan tangan dari Presiden dan Wakil Presiden Badan
 Eksekutif Mahasiswa Universitas Udayana dalam menjalankan visi misi Eskalasi Cita Udayana
@@ -18,7 +18,7 @@ Internal maupun eksternal`,
   {
     icon: "/icon/satuan-pengendali-internal.svg",
     title: "Satuan Pengendali Internal",
-    href: "/docs/primitives/alert-dialog",
+    href: "/spi",
     description: `Bertugas untuk memastikan bahwa operasi dan kegiatan ormawa berjalan sesuai dengan
             prosedur, kebijakan, serta standar yang telah ditetapkan. Fungsi utamanya adalah untuk
             mengawasi dan menilai efektivitas serta efisiensi manajemen dan penggunaan sumber daya
@@ -28,7 +28,7 @@ Internal maupun eksternal`,
   {
     icon: "/icon/pengurus-harian.svg",
     title: "Badan Pengurus Harian",
-    href: "/docs/primitives/hover-card",
+    href: "/bph",
     description: `Bertanggung jawab atas operasional harian ormawa, seperti koordinasi rapat, pengawasan
 kegiatan, dan administrasi. Menyelenggarakan keputusan dan kebijakan yang telah disetujui oleh
 organisasi. Mengkoordinasikan kegiatan antar departemen atau divisi dalam ormawa untuk

@@ -24,12 +24,12 @@ export const metadata: Metadata = {
     siteName: "Bem Unud",
     images: [
       {
-        url: "https://cdn.discordapp.com/attachments/1025050491551485997/1261728243279466606/Slide_16_9_-_17.webp?ex=6694037e&is=6692b1fe&hm=a69b4971a381a03c8ab25222f8727211df8687dfadb259b92e211e3a923b77d1&", // Must be an absolute URL
+        url: "/cover/og-image.webp", // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: "https://cdn.discordapp.com/attachments/1025050491551485997/1261728243279466606/Slide_16_9_-_17.webp?ex=6694037e&is=6692b1fe&hm=a69b4971a381a03c8ab25222f8727211df8687dfadb259b92e211e3a923b77d1&", // Must be an absolute URL
+        url: "/cover/og-image.webp", // Must be an absolute URL
         width: 1800,
         height: 1600,
         alt: "Background Image BEM UNUD",
@@ -55,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-primary">
       <body className={font.className}>{children}</body>
     </html>
   );

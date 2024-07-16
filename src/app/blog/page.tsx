@@ -24,7 +24,7 @@ export default async function Page() {
           {posts.results.map((post: any) => (
             <Link
               key={post.id}
-              className="flex flex-col gap-10 rounded-lg border p-3 transition-all duration-300 ease-in-out hover:bg-[#e1e6ea] hover:shadow-lg focus:outline-none focus:ring focus:ring-[#515355] focus:ring-opacity-50"
+              className="flex flex-col gap-10 rounded-lg border bg-white p-3 transition-all duration-300 ease-in-out hover:bg-[#e1e6ea] hover:shadow-lg focus:outline-none focus:ring focus:ring-[#515355] focus:ring-opacity-50"
               href={`/blog/${post.properties.slug.rich_text[0].plain_text}`}
             >
               <div className="">

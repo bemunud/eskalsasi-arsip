@@ -1,10 +1,9 @@
 import FooterMenu from "./footer-menu";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Footer() {
   return (
-    <section className="">
+    <section className="bg-white">
       <div className="container mb-24 flex flex-col gap-y-8 py-5 md:flex-row">
         <div className="grid w-full gap-2 bg-inherit">
           <div className="flex items-start gap-2">
