@@ -13,6 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaTiktok, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { buttonVariants } from "../ui/button";
 
 export default function ActionButtons() {
   return (
@@ -33,7 +34,7 @@ export default function ActionButtons() {
                       <li key={component.title}>
                         <Link
                           href={`${component.href}`}
-                          className="block select-none space-y-1 rounded-xl bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-100"
+                          className="block select-none border border-stone-200 space-y-1 rounded-xl bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-100"
                         >
                           <Image
                             src={`${component.icon}`}
@@ -54,12 +55,12 @@ export default function ActionButtons() {
                     ))}
                   </ul>
                   <SheetTitle className="text-xl">Audit</SheetTitle>
-                  <ul className="w-full space-y-4 rounded-lg bg-stone-500 p-4 text-justify">
+                  <ul className="w-full space-y-4 rounded-lg bg-white p-4 text-justify">
                     {AUDIT.map((component) => (
                       <li key={component.title} className="w-full">
                         <Link
                           href={`${component.href}`}
-                          className="hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200"
+                          className="border border-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200"
                         >
                           <div className="text-sm font-semibold leading-none">
                             {component.title}
@@ -72,12 +73,12 @@ export default function ActionButtons() {
                     ))}
                   </ul>
                   <SheetTitle className="text-xl">Tentang</SheetTitle>
-                  <ul className="w-full space-y-4 rounded-lg bg-stone-500 p-4 text-justify">
+                  <ul className="w-full space-y-4 rounded-lg bg-white p-4 text-justify">
                     {TENTANG.map((component) => (
                       <li key={component.title} className="w-full">
                         <Link
                           href={`${component.href}`}
-                          className="hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200"
+                          className="border border-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200"
                         >
                           <div className="text-sm font-semibold leading-none">
                             {component.title}
@@ -86,24 +87,38 @@ export default function ActionButtons() {
                       </li>
                     ))}
                   </ul>
-                  <SheetTitle className="w-full border-b-2 border-black text-start">
+                  <SheetTitle className="text-xl">Postingan</SheetTitle>
+                  <Link href={"/blog"} className={buttonVariants({variant: "link", className: "text-lg font-semibold",})}>Informasi Terkini</Link>
+                  <SheetTitle className="text-xl">Sosial Media</SheetTitle>
+                  <div className="flex space-x-4">
                     <Link
-                      href={"/"}
-                      className="flex w-full justify-between p-2 text-2xl"
+                      href={"https://web.facebook.com/bemudayana"}
+                      target="_blank"
                     >
-                      Kajian
-                      <ArrowUpRight className="h-8 w-8" aria-hidden="true" />
+                      <FaFacebook />
                     </Link>
-                  </SheetTitle>
-                  <SheetTitle className="w-full border-b-2 border-black text-start">
+                    <Link href={"https://x.com/BEM_Udayana"} target="_blank">
+                      <FaXTwitter />
+                    </Link>
                     <Link
-                      href={"/"}
-                      className="flex w-full justify-between p-2 text-2xl"
+                      href={"https://www.instagram.com/bem_udayana/"}
+                      target="_blank"
                     >
-                      Berita
-                      <ArrowUpRight className="h-8 w-8" aria-hidden="true" />
+                      <FaInstagram />
                     </Link>
-                  </SheetTitle>
+                    <Link
+                      href={"https://www.tiktok.com/@bem_udayana"}
+                      target="_blank"
+                    >
+                      <FaTiktok />
+                    </Link>
+                    <Link
+                      href={"https://www.linkedin.com/company/bemudayana/"}
+                      target="_blank"
+                    >
+                      <FaLinkedin />
+                    </Link>
+                  </div>
                 </div>
               </SheetDescription>
             </SheetHeader>
