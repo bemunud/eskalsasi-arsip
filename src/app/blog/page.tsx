@@ -20,7 +20,7 @@ export default async function Page() {
             Informasi terkini dari BEM Udayana
           </p>
         </section>
-        <section className="container grid grid-cols-1 gap-8 md:grid-cols-3">
+        <section className="container grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {posts.results.map((post: any) => (
             <Link
               key={post.id}
@@ -39,7 +39,7 @@ export default async function Page() {
               </div>
 
               <div className="flex w-auto flex-col gap-1.5">
-                <h1 className="text-start text-2xl font-extrabold text-black md:text-center">
+                <h1 className="text-start text-xl font-extrabold">
                   {post.properties.Title.title[0].plain_text}
                 </h1>
                 {post.properties.Tags.multi_select.map((tag: any) => (
@@ -47,11 +47,11 @@ export default async function Page() {
                     key={tag.id}
                     className={
                       tag.name === "kajian"
-                        ? "w-fit rounded-lg border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-medium text-green-600"
+                        ? "w-fit rounded-lg border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-semibold text-green-600"
                         : tag.name === "warta"
-                          ? "w-fit rounded-lg border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-medium text-purple-600"
+                          ? "w-fit rounded-lg border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-semibold text-purple-600"
                           : tag.name === "berita"
-                            ? "w-fit rounded-lg border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-medium text-stone-600"
+                            ? "w-fit rounded-lg border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-semibold text-stone-600"
                             : ""
                     }
                   >
@@ -68,11 +68,11 @@ export default async function Page() {
                     />
                     <AvatarFallback>Kominfo</AvatarFallback>
                   </Avatar>
-                  <div className="w-1/2 text-sm font-medium">
+                  <div className="w-1/2 text-xs font-semibold">
                     {post.properties.Author.select.name}
                   </div>
                 </div>
-                <div className="text-end text-xs font-medium">
+                <div className="text-end text-xs font-semibold">
                   {new Date(
                     post.properties.Date.created_time,
                   ).toLocaleDateString("en-US", {
