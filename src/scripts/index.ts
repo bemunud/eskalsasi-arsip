@@ -7,7 +7,7 @@ export const GOVERNANCE: {
   {
     icon: "/icon/pengurus-inti.svg",
     title: "Kantor Staf Presiden",
-    href: "/ksp",
+    href: "/struktural/ksp",
     description: `Kepala Staf Presiden adalah Kepengurusan Non Struktural yang ada di Kabinet Eskalasi
 Cita Udayana. KSP Merupakan Perpanjangan tangan dari Presiden dan Wakil Presiden Badan
 Eksekutif Mahasiswa Universitas Udayana dalam menjalankan visi misi Eskalasi Cita Udayana
@@ -18,7 +18,7 @@ Internal maupun eksternal`,
   {
     icon: "/icon/satuan-pengendali-internal.svg",
     title: "Satuan Pengendali Internal",
-    href: "/spi",
+    href: "/struktural/spi",
     description: `Bertugas untuk memastikan bahwa operasi dan kegiatan ormawa berjalan sesuai dengan
             prosedur, kebijakan, serta standar yang telah ditetapkan. Fungsi utamanya adalah untuk
             mengawasi dan menilai efektivitas serta efisiensi manajemen dan penggunaan sumber daya
@@ -28,7 +28,7 @@ Internal maupun eksternal`,
   {
     icon: "/icon/pengurus-harian.svg",
     title: "Badan Pengurus Harian",
-    href: "/bph",
+    href: "/struktural/bph",
     description: `Bertanggung jawab atas operasional harian ormawa, seperti koordinasi rapat, pengawasan
 kegiatan, dan administrasi. Menyelenggarakan keputusan dan kebijakan yang telah disetujui oleh
 organisasi. Mengkoordinasikan kegiatan antar departemen atau divisi dalam ormawa untuk
@@ -42,7 +42,7 @@ ormawa.`,
   {
     icon: "/icon/kemahasiswaan.svg",
     title: "Kemahasiswaan",
-    href: "/docs/primitives/hover-card",
+    href: "/struktural/kemaha",
     description: `Menjadi garda terdepan dalam pemenuhan kebutuhan fasilitas mahasiswa dalam
 kehidupan berkampus di Udayana baik untuk short-term serta long-term effect untuk
 menciptakan rasa nyaman serta aman bagi mahasiswa melalui kegiatan yang sustainable baik
@@ -51,7 +51,7 @@ dengan program kerja ataupun program elaborasi.`,
   {
     icon: "/icon/kemasyarakatan.svg",
     title: "Kemasyarakatan",
-    href: "/docs/primitives/progress",
+    href: "/struktural/kemasya",
     description: `Bergerak dalam ruang lingkup sosial dan kemasyarakatan yang berkontribusi pada
 pemberdayaan masyarakat sekitar, terhusus desa yang betul membutuhkan perhatian dan
 pemberdayaan. Lalu pada aspek sosial tentunya turut menumbuhkan rasa kepedulian dan
@@ -60,7 +60,7 @@ memberikan akses dan ruang untuk melatih intelek emosional mahasiswa.`,
   {
     icon: "/icon/relasi-dan-harmonisasi-hubungan.svg",
     title: "Relasi & Harmonisasi Hubungan",
-    href: "/docs/primitives/scroll-area",
+    href: "/struktural/rhh",
     description: `Media sinergi untuk Badan Eksekutif Mahasiswa dalam menjalin hubungan antar
 organisasi mahasiswa di luar dan di dalam lingkup Universitas Udayana serta membersamai
 proses hubungan dengan pendekatan harmonis.`,
@@ -68,7 +68,7 @@ proses hubungan dengan pendekatan harmonis.`,
   {
     icon: "/icon/minat-bakat-dan-prestasi.svg",
     title: "Minat, Bakat, & Prestasi",
-    href: "/docs/primitives/tabs",
+    href: "/struktural/mikatpres",
     description: `Hadir sebagai wadah pemenuhan mahasiswa dalam berekspresi mengembangkan potensi
 diri di berbagai macam jenis aspek minat dan bakat, baik itu adalah bakat kognitif, seni dan
 olahraga. Lalu sebagai penyalur minat para mahasiswa yang memiliki keinginan untuk
@@ -78,7 +78,7 @@ mempelajari hal baru pada aspek bakat yang telah disebutkan.
   {
     icon: "/icon/analisis-dan-pergerakan.svg",
     title: "Analisis & Pergerakan",
-    href: "/docs/primitives/tooltip",
+    href: "/struktural/asper",
     description: `Bergerak sebagai ujung tombak dan garda terdepan dalam menyuarakan segala aspirasi
 dan keresahan yang terstruktur dan ilmiah berdasarkan kajian. Dan mampu Menjadi pencerdas
 isu sosial dan politik kepada masyarakat dan mahasiswa secara luas melalui propaganda
@@ -261,3 +261,5 @@ export const DEPARTEMEN = [
     img: "/icon/soslindup.svg",
   },
 ];
+
+// post.cover.file.url

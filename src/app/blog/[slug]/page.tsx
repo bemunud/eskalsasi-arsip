@@ -40,7 +40,7 @@ export default async function renderProse({
           </h1>
           <div className="flex justify-center">
             <Image
-              src={post.cover.file.url}
+              src={`/cover/${post.properties.slug.rich_text[0].plain_text}.webp`}
               alt={`cover ${post.properties.Title.title[0].plain_text}`}
               width={400}
               height={400}
