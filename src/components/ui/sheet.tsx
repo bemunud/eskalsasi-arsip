@@ -68,7 +68,7 @@ const SheetContent = React.forwardRef<
       <SheetPrimitive.Close className="absolute -right-1 top-0 w-full rounded-sm transition-opacity hover:opacity-100">
         <div className="fixed z-auto flex h-auto w-full items-center justify-between bg-white px-7 py-3">
           <Image
-            src={"./logo-brand.svg"}
+            src={"/logo-brand.svg"}
             alt="N"
             className="w-10"
             width={32}
