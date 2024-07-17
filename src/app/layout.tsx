@@ -21,19 +21,11 @@ export const metadata: Metadata = {
     description:
       "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Yuk bersuara! ",
     url: "https://bemunud.id/",
-    siteName: "Bem Unud",
+    siteName: "bemunud.id",
     images: [
       {
-        url: "/cover/og-image.webp", // Must be an absolute URL
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "/cover/og-image.webp", // Must be an absolute URL
-        width: 1800,
-        height: 1600,
-        alt: "Background Image BEM UNUD",
-      },
+        url: "/cover/og-image.png", // Must be an absolute URL
+      }
     ],
     locale: "en_US",
     type: "website",
