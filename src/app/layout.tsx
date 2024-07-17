@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import { ImageResponse } from "next/og";
 import "./globals.css";
 
 const font = Plus_Jakarta_Sans({ subsets: ["latin"] });
@@ -21,11 +22,14 @@ export const metadata: Metadata = {
     description:
       "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Yuk bersuara! ",
     url: "https://bemunud.id/",
-    siteName: "bemunud.id",
+    siteName: "Badan Eksekutif Mahasiswa (BEM PM) Universitas Udayana",
     images: [
       {
-        url: "/cover/og-image.png", // Must be an absolute URL
-      }
+        url: "/cover/og-image.webp",
+        alt: "Cover Image",
+        width: "1200",
+        height: "630", // Must be an absolute URL
+      },
     ],
     locale: "en_US",
     type: "website",
