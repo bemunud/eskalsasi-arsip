@@ -1,5 +1,5 @@
 import Footer from "@/components/footer";
-import JumbotronSPI from "@/components/spi/hero-section";
+import JumbotronSPI from "@/components/struktural/spi/hero-section";
 import ComingSoon from "@/components/magicui/comingsoon";
 import Navbar from "@/components/navbar/page";
 

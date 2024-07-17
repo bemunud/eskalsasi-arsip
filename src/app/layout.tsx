@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://bemunud.id/"),
+  metadataBase: new URL("https://bemunud.id/" || "localhost:3000"),
   openGraph: {
     title: "BEM Udayana - Pengantar aspirasi Mahasiswa Universitas Udayana",
     description:

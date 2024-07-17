@@ -62,6 +62,11 @@ const config = {
             transform: "translate(calc(100cqw - 100%), 0)",
           },
         },
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -71,6 +76,7 @@ const config = {
         ripple: "ripple 3400ms ease infinite",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
       },
     },
   },
