@@ -91,7 +91,7 @@ export default function NavigationMenuDemo() {
                     href="/"
                   >
                     <Image
-                      src="./logo-brand.svg"
+                      src="/logo-brand.svg"
                       alt="N"
                       className="h-12 w-12"
                       width={32}
