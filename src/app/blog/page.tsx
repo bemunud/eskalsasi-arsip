@@ -58,9 +58,6 @@ export default async function Page() {
                     {tag.name}
                   </div>
                 ))}
-                <article className="text-muted-foreground py-3 text-justify text-xs font-thin leading-snug">
-                  {post.properties.deskripsi.rich_text[0].plain_text}
-                </article>
                 <div className="flex items-center justify-start gap-2">
                   <Avatar>
                     <AvatarImage

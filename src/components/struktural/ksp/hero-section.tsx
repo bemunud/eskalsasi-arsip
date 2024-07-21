@@ -15,7 +15,7 @@ export default function JumbotronSPI() {
         />
         <div className="absolute inset-0 w-full bg-stone-700 bg-opacity-20 backdrop-blur-xl"></div>
       </div>
-      <BlurFade delay={0.25} inView className="absolute z-10 rounded-md overflow-hidden">
+      <BlurFade delay={0.75} inView className="absolute z-10 rounded-md overflow-hidden">
         <div className="flex flex-col items-center justify-center p-3 gap-2">
           <Image src={`/cover/spi.svg`} width={150} height={150} alt="spi" />
           <div className="font-semibold text-white">
