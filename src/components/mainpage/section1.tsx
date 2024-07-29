@@ -15,24 +15,25 @@ export default function MeshGradient() {
         </p>
         <div className="flex flex-col items-center gap-4 md:flex-row">
           <Link
-            href={"#"}
+            href={"https://t.me/hotlineUdayanabot"}
             className={buttonVariants({
               variant: "eskalasi",
               className: "w-96 md:w-auto",
               size: "lg",
             })}
+            target="_blank"
           >
-            Baca Kajian Terakhir
+            Yuk Bersuara!
           </Link>
           <Link
-            href={"#"}
+            href={"/blog"}
             className={buttonVariants({
               variant: "outline",
               className: "w-96 md:w-auto",
               size: "lg",
             })}
           >
-            Lihat Pengumuman
+            Informasi Terbaru
           </Link>
         </div>
       </div>

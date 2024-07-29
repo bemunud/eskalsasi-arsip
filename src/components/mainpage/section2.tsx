@@ -6,7 +6,7 @@ export default function InformantBem() {
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
           <div className="text-center">
             <div className="whitespace-pre-wrap text-6xl font-medium tracking-tighter text-black md:text-8xl">
-              <NumberTicker value={294} />
+              <NumberTicker value={299} />
             </div>
             <div>Orang</div>
           </div>
