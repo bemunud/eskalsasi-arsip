@@ -22,7 +22,7 @@ export default async function BlogPreview() {
                   {posts.results.slice(0, 3).map((post: any) => (
                     <Link
                       key={post.id}
-                      className="flex flex-col gap-8 rounded-lg py-3 transition-all duration-300 ease-in-out hover:bg-[#e1e6ea] hover:shadow-lg focus:outline-none focus:ring focus:ring-[#515355] focus:ring-opacity-50 md:flex-row"
+                      className="flex flex-col gap-8 py-3 transition-all duration-300 ease-in-out hover:bg-[#e1e6ea] hover:shadow-lg focus:outline-none focus:ring focus:ring-[#515355] focus:ring-opacity-50 md:flex-row"
                       href={`/blog/${post.properties.slug.rich_text[0].plain_text}`}
                     >
                       <div className="flex justify-center">
@@ -31,13 +31,13 @@ export default async function BlogPreview() {
                           alt={`cover ${post.properties.Title.title[0].plain_text}`}
                           width={200}
                           height={200}
-                          className="rounded-lg w-full md:h-auto md:w-64"
+                          className="w-full rounded-lg md:h-auto md:w-64"
                           priority
                         />
                       </div>
 
                       <div className="flex w-auto flex-col items-start justify-start gap-1 align-middle md:justify-center">
-                        <h1 className="text-start text-2xl font-extrabold text-black">
+                        <h1 className="text-start text-xl font-extrabold text-black">
                           {post.properties.Title.title[0].plain_text}
                         </h1>
                         {post.properties.Tags.multi_select.map((tag: any) => (
@@ -45,11 +45,11 @@ export default async function BlogPreview() {
                             key={tag.id}
                             className={
                               tag.name === "kajian"
-                                ? "rounded-lg border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-medium text-green-600"
+                                ? "rounded-sm border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-medium text-green-600"
                                 : tag.name === "warta"
-                                  ? "rounded-lg border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-medium text-purple-600"
-                                  : tag.name === "berita"
-                                    ? "rounded-lg border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-medium text-stone-600"
+                                  ? "rounded-sm border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-medium text-purple-600"
+                                  : tag.name === "Press Release"
+                                    ? "rounded-md border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-medium text-stone-600"
                                     : ""
                             }
                           >

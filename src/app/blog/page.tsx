@@ -50,7 +50,7 @@ export default async function Page() {
                         ? "w-fit rounded-lg border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-semibold text-green-600"
                         : tag.name === "warta"
                           ? "w-fit rounded-lg border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-semibold text-purple-600"
-                          : tag.name === "berita"
+                          : tag.name === "Press Release"
                             ? "w-fit rounded-lg border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-semibold text-stone-600"
                             : ""
                     }
