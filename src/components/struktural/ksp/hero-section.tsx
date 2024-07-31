@@ -5,7 +5,7 @@ import { BorderBeam } from "@/components/magicui/border-beam";
 export default function JumbotronSPI() {
   return (
     <section className="flex h-screen w-full flex-col items-center justify-center overflow-hidden lg:h-full xl:h-[48rem]">
-      <div className="relative h-screen w-full overflow-hidden rounded-2xl shadow-lg">
+      <div className="relative h-screen w-full overflow-hidden shadow-lg">
         <Image
           src={`/cover/spi.png`}
           width={1980}
