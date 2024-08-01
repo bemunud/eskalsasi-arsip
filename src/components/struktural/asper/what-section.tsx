@@ -52,10 +52,10 @@ export default function WhatSectionASPER() {
         </div>
       </section>
       <section className="container">
-        <h1 className="text-3xl font-semibold text-stone-500">Koordinasi</h1>
+        {/* <h1 className="text-3xl font-semibold text-stone-500">Koordinasi</h1>
         {DEPARTEMEN.filter((departemen) => departemen.label === 'asper').map((departemen) => (
           <Image src={departemen.img} alt={departemen.label} width={100} height={100}/>
-        ))}
+        ))} */}
       </section>
     </>
   );
