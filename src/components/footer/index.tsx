@@ -31,13 +31,11 @@ export default function Footer() {
             </span>
           </div>
           <div className="gap-6">
-            <p className="text-sm font-semibold">
-              BEM PM Universitas Udayana
-            </p>
+            <p className="text-sm font-semibold">BEM PM Universitas Udayana</p>
             <p className="text-sm font-semibold">Eskalasi Cita Udayana</p>
-            <p className="text-balance text-xs font-extralight text-gray-400 py-3">
-              Jl. Raya Kampus UNUD, Bukit Jimbaran, Kuta Selatan, Badung, Bali,
-              Indonesia 80361
+            <p className="text-balance py-3 text-xs font-extralight text-gray-400">
+              Gedung Student Center, Jl. DR. Goris No.10 Lantai 2, Dangin Puri
+              Klod, Kec. Denpasar Tim., Kota Denpasar, Bali 80232
             </p>
           </div>
         </div>

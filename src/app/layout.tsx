@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
-import { ImageResponse } from "next/og";
 import "./globals.css";
 
 const font = Plus_Jakarta_Sans({ subsets: ["latin"] });
@@ -10,11 +9,11 @@ export const metadata: Metadata = {
   description:
     "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Klik link ini, sampaikan suaramu untuk Udayana ",
   referrer: "origin-when-cross-origin",
-  keywords: ["BEM UNUD", "Website BEM Unud", "BEM Udayana"],
+  keywords: ["BEM UNUD", "Website BEM Unud", "BEM Udayana", "BEM Universitas Udayana", "bem unud"],
   formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
+    email: true,
+    address: true,
+    telephone: true,
   },
   metadataBase: new URL("https://bemunud.id/" || "localhost:3000"),
   openGraph: {
