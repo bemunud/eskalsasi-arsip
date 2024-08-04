@@ -71,19 +71,6 @@ export default function MarqueeSlider() {
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#f6fafe]"></div>
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-[#f6fafe]"></div>
       </div>
-
-      <Button
-        className="rounded-xl px-12 py-6 font-medium"
-        variant={"eskalasi_scale"}
-        asChild
-      >
-        <Link
-          href={"/tentang-bem"}
-          className="flex items-center justify-center"
-        >
-          Cari tahu lebih lanjut{" "}
-        </Link>
-      </Button>
     </section>
   );
 }

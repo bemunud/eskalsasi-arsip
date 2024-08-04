@@ -17,6 +17,9 @@ const config = {
         "2xl": "1400px",
       },
     },
+    flex:{
+      custom: "1 1 1px",
+    },
     extend: {
       keyframes: {
         "accordion-down": {

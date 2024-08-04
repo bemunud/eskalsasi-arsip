@@ -38,10 +38,7 @@ export default async function Page() {
                 />
               </div>
 
-              <div className="flex w-auto flex-col gap-1.5">
-                <h1 className="text-start text-xl font-extrabold">
-                  {post.properties.Title.title[0].plain_text}
-                </h1>
+              <div className="flex flex-col">
                 {post.properties.Tags.multi_select.map((tag: any) => (
                   <div
                     key={tag.id}
@@ -51,13 +48,19 @@ export default async function Page() {
                         : tag.name === "warta"
                           ? "w-fit rounded-lg border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-semibold text-purple-600"
                           : tag.name === "Press Release"
-                            ? "w-fit rounded-lg border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-semibold text-stone-600"
+                            ? "uppercase text-xs font-extrabold text-blue-500 mb-2"
                             : ""
                     }
                   >
                     {tag.name}
                   </div>
                 ))}
+                <h1 className="text-start text-xl font-extrabold mb-3">
+                  {post.properties.Title.title[0].plain_text}
+                </h1>
+                <p className="block relative mb-3 flex-custom text-xs text-gray-400 min-h-9 overflow-hidden overflow-ellipsis text-justify">
+                  {post.properties.deskripsi.rich_text[0].plain_text}
+                </p>
                 <div className="flex items-center justify-start gap-2">
                   <Avatar>
                     <AvatarImage
