@@ -4,7 +4,7 @@ export default function WhatSectionKSP() {
     <>
       <section className="container grid md:grid-cols-2 gap-y-36 md:gap-y-0 mt-24 md:mt-0 items-center">
         <div className="">
-          <h1 className="my-10 text-7xl font-semibold md:mb-10">
+          <h1 className="my-10 text-5xl font-semibold md:mb-10">
             Kepala Staf Presiden
           </h1>
           <p className="text-justify font-medium">
