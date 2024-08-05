@@ -9,7 +9,13 @@ export const metadata: Metadata = {
   description:
     "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Klik link ini, sampaikan suaramu untuk Udayana ",
   referrer: "origin-when-cross-origin",
-  keywords: ["BEM UNUD", "Website BEM Unud", "BEM Udayana", "BEM Universitas Udayana", "bem unud"],
+  keywords: [
+    "BEM UNUD",
+    "Website BEM Unud",
+    "BEM Udayana",
+    "BEM Universitas Udayana",
+    "bem unud",
+  ],
   formatDetection: {
     email: true,
     address: true,
@@ -32,6 +38,9 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
+  },
+  alternates: {
+    canonical: `bemunud.id`,
   },
   icons: {
     icon: "/favicon-ico/favicon-16x16.png",
