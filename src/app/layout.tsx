@@ -42,6 +42,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `bemunud.id`,
   },
+  robots: "index, follow",
   icons: {
     icon: "/favicon-ico/favicon-16x16.png",
     shortcut: "/favicon-ico/favicon-32x32.png",
