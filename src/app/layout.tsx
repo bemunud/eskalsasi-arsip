@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   alternates: {
-    canonical: `bemunud.id`,
+    canonical: `/`,
   },
   robots: "index, follow",
   icons: {
