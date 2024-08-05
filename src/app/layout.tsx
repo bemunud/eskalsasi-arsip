@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     "Jembatan pengantar aspirasi mahasiswa Universitas Udayana. Klik link ini, sampaikan suaramu untuk Udayana ",
   referrer: "origin-when-cross-origin",
+  verification: {
+    google: "LL1Eh_-hdKAuFSwaxJjsgl7PkNQE1ClF_bfK6yLPEQs",
+  },
   keywords: [
     "BEM UNUD",
     "Website BEM Unud",
