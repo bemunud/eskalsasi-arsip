@@ -1,0 +1,3 @@
+export default function Home(){
+    return "google-site-verification: googlef6111180d1a6b726.html"
+}
