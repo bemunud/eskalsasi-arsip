@@ -37,7 +37,7 @@ export default async function BlogPreview() {
                       </div>
 
                       <div className="flex w-auto flex-col items-start justify-start gap-1 align-middle md:justify-center">
-                        <h1 className="text-start text-xl font-extrabold text-black">
+                        <h1 className="text-start text-xl font-extrabold text-black capitalize">
                           {post.properties.Title.title[0].plain_text}
                         </h1>
                         {post.properties.Tags.multi_select.map((tag: any) => (

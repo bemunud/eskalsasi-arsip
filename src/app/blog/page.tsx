@@ -55,7 +55,7 @@ export default async function Page() {
                     {tag.name}
                   </div>
                 ))}
-                <h1 className="text-start text-xl font-extrabold mb-3">
+                <h1 className="text-start text-xl font-extrabold mb-3 capitalize">
                   {post.properties.Title.title[0].plain_text}
                 </h1>
                 <p className="block relative mb-3 flex-custom text-xs text-gray-400 min-h-9 overflow-hidden overflow-ellipsis text-justify">
