@@ -94,8 +94,8 @@ export const AUDIT: {
 }[] = [
   {
     title: "Laporan Keuangan",
-    href: "/path/to/laporan-keuangan.pdf",
-    description: "pass",
+    href: "laporan-keuangan",
+    description: "Transparansi pergerakan keuangan dalam bem",
     target: "_self",
   },
   {
@@ -285,4 +285,31 @@ export const DEPARTEMEN:{name: string; username: string; body:string; img:string
   },
 ];
 
+export const PROOFOFRESERVE:{label: string, href: string, name: string;}[]=[
+  {
+    label:"Juni",
+    href:'https://drive.google.com/drive/folders/1Yg313yX0GygUJvQYYWOfUMMjWWstODSG',
+    name:'Laporan Keuangan Periode Juni 2024'
+  },
+  {
+    label:"Mei",
+    href:'https://drive.google.com/drive/folders/1EzFP9JF3C2ot-dyLlHQ2S8xvzuPlCDcL',
+    name:"Laporan Keuangan Periode Mei 2024"
+  },
+  {
+    label:"April",
+    href:'pass',
+    name:"Laporan Keuangan Periode April 2024"
+  },
+  {
+    label:"Maret",
+    href:'https://drive.google.com/drive/folders/1XGXtro0H1mKgsADfQI10G3807iwPZBhX',
+    name:'Laporan Keuangan Periode Maret 2024'
+  },
+  {
+    label:"Januari Februari",
+    href:'https://drive.google.com/drive/folders/1Fb9zmuZLbtng-nTxoZfJlyX4J6NRJdA3',
+    name:'Laporan Keuangan Januari & Februari 2024'
+  }
+]
 // post.cover.file.url

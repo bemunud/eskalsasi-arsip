@@ -43,7 +43,7 @@ export default function NavigationMenuDemo() {
                     <div className="text-sm font-semibold leading-none">
                       {component.title}
                     </div>
-                    <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
+                    <p className="text-muted-foreground line-clamp-2 text-xs font-medium text-gray-600 leading-snug">
                       {component.description}
                     </p>
                   </Link>
