@@ -78,45 +78,7 @@ export default function NavigationMenuDemo() {
             </NavTriggerLink>
           </Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="font-medium">
-            Tentang
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[700px] p-4 lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3 mr-3 rounded-md bg-slate-300">
-                <NavigationMenuLink asChild>
-                  <a
-                    className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-3 no-underline outline-none focus:shadow-md"
-                    href="/"
-                  >
-                    <Image
-                      src="/logo-brand.svg"
-                      alt="N"
-                      className="h-12 w-12"
-                      width={32}
-                      height={32}
-                      priority
-                    />
-                    <div className="text-base font-medium">
-                      Tentang Kabinet{" "}
-                    </div>
-                    <p className="text-muted-foreground text-xs leading-tight">
-                      Sekilas tentang kabinet Eskalasi Cita Udayana
-                    </p>
-                  </a>
-                </NavigationMenuLink>
-              </li>
-              {TENTANG.map((component) => (
-                <ListItem
-                  key={component.title}
-                  title={component.title}
-                  href={component.href}
-                ></ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
+      {/* ----------------------------------------------------- */}
       </NavigationMenuList>
     </NavigationMenu>
   );

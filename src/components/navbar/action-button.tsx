@@ -71,21 +71,7 @@ export default function ActionButtons() {
                       </li>
                     ))}
                   </ul>
-                  <SheetTitle className="text-xl">Tentang</SheetTitle>
-                  <ul className="w-full space-y-4 rounded-lg bg-white p-4 text-justify">
-                    {TENTANG.map((component) => (
-                      <li key={component.title} className="w-full">
-                        <Link
-                          href={`${component.href}`}
-                          className="border border-stone-200 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block select-none space-y-1 rounded-md bg-white p-4 leading-none no-underline outline-none transition-colors hover:bg-stone-200"
-                        >
-                          <div className="text-sm font-semibold leading-none">
-                            {component.title}
-                          </div>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                  {/* --------------------- */}
                   <SheetTitle className="text-xl">Postingan</SheetTitle>
                   <Link href={"/blog"} className={buttonVariants({variant: "link", className: "text-lg font-semibold",})}>Informasi Terkini</Link>
                   <SheetTitle className="text-xl">Sosial Media</SheetTitle>
