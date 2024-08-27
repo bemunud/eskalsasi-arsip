@@ -53,7 +53,7 @@ export default function MarqueeSlider() {
       <h2 className="text-center text-3xl font-extrabold text-black md:text-4xl">
         Lanskap Kementerian & Biro BEM Udayana
       </h2>
-      <h2 className="max-w-3xl text-balance text-center text-sm font-medium text-[#D4D7DB] md:text-lg">
+      <h2 className="max-w-3xl text-balance text-center text-sm font-medium text-[#9daec5] md:text-lg">
         Terdapat beberapa kementerian dan biro diberbagai bidang yang hadir di
         BEM Udayana saat ini
       </h2>

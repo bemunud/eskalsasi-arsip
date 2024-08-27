@@ -15,7 +15,7 @@ export default async function BlogPreview() {
           <h2 className="text-center text-4xl font-extrabold text-black">
             Tetap terhubung dengan kegiatan kami
           </h2>
-          <h2 className="text-balance text-center text-sm font-medium text-[#D4D7DB] md:text-lg">
+          <h2 className="text-balance text-center text-sm font-medium text-[#9daec5] md:text-lg">
             Kunjungi blog kami untuk mendapatkan informasi terkini seputar
             kegiatan mahasiswa Udayana
           </h2>

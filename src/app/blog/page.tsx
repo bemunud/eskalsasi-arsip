@@ -15,9 +15,9 @@ export default async function Page() {
       </header>
       <main className="bg-primary flex min-h-screen flex-col gap-y-24 pb-32">
         <section className="mt-40 flex flex-col space-y-4">
-          <h1 className="text-primary text-center text-4xl font-bold">Blog</h1>
-          <p className="text-muted-foreground text-center text-lg">
-            Informasi terkini dari BEM Udayana
+          <h1 className="text-primary text-center text-4xl font-bold">Info Terupdate</h1>
+          <p className="text-muted-foreground text-balance text-center text-sm font-medium text-[#9daec5] md:text-lg">
+            Informasi terkini dari BEM PM Universitas Udayana
           </p>
         </section>
         <section className="container grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
