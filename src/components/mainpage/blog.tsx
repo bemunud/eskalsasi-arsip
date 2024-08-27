@@ -11,12 +11,13 @@ export default async function BlogPreview() {
   return (
     <>
       <section className="container flex w-full flex-col gap-7">
-        <div className="flex flex-col justify-center gap-4 w-full">
+        <div className="flex w-full flex-col justify-center gap-4">
           <h2 className="text-center text-4xl font-extrabold text-black">
             Tetap terhubung dengan kegiatan kami
           </h2>
           <h2 className="text-balance text-center text-sm font-medium text-[#D4D7DB] md:text-lg">
-            Kunjungi blog kami untuk mendapatkan informasi terkini seputar kegiatan mahasiswa Udayana
+            Kunjungi blog kami untuk mendapatkan informasi terkini seputar
+            kegiatan mahasiswa Udayana
           </h2>
         </div>
         <Suspense fallback={<Loading />}>
@@ -50,13 +51,7 @@ export default async function BlogPreview() {
                             <div
                               key={tag.id}
                               className={
-                                tag.name === "kajian"
-                                  ? "rounded-sm border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-medium text-green-600"
-                                  : tag.name === "artikel"
-                                    ? "rounded-sm border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-medium text-purple-600"
-                                    : tag.name === "Press Release"
-                                      ? "rounded-md border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-medium text-stone-600"
-                                      : ""
+                                "mb-2 text-xs font-extrabold uppercase text-blue-500"
                               }
                             >
                               {tag.name}
