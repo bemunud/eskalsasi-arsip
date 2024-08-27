@@ -37,25 +37,27 @@ export default async function BlogPreview() {
                       </div>
 
                       <div className="flex w-auto flex-col items-start justify-start gap-1 align-middle md:justify-center">
-                        <h1 className="text-start text-xl font-extrabold text-black capitalize">
+                        <h1 className="text-start text-xl font-extrabold capitalize text-black">
                           {post.properties.Title.title[0].plain_text}
                         </h1>
-                        {post.properties.Tags.multi_select.map((tag: any) => (
-                          <div
-                            key={tag.id}
-                            className={
-                              tag.name === "kajian"
-                                ? "rounded-sm border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-medium text-green-600"
-                                : tag.name === "warta"
-                                  ? "rounded-sm border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-medium text-purple-600"
-                                  : tag.name === "Press Release"
-                                    ? "rounded-md border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-medium text-stone-600"
-                                    : ""
-                            }
-                          >
-                            {tag.name}
-                          </div>
-                        ))}
+                        <div className="flex gap-2">
+                          {post.properties.Tags.multi_select.map((tag: any) => (
+                            <div
+                              key={tag.id}
+                              className={
+                                tag.name === "kajian"
+                                  ? "rounded-sm border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-medium text-green-600"
+                                  : tag.name === "artikel"
+                                    ? "rounded-sm border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-medium text-purple-600"
+                                    : tag.name === "Press Release"
+                                      ? "rounded-md border-2 border-stone-400 bg-stone-200 px-2 py-0.5 text-sm font-medium text-stone-600"
+                                      : ""
+                              }
+                            >
+                              {tag.name}
+                            </div>
+                          ))}
+                        </div>
                         <div className="text-lg font-medium">
                           {new Date(
                             post.properties.Date.created_time,

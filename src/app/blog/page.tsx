@@ -39,22 +39,18 @@ export default async function Page() {
               </div>
 
               <div className="flex flex-col">
+                <div className="flex gap-x-4">
                 {post.properties.Tags.multi_select.map((tag: any) => (
                   <div
                     key={tag.id}
                     className={
-                      tag.name === "kajian"
-                        ? "w-fit rounded-lg border-2 border-green-400 bg-green-200 px-2 py-0.5 text-sm font-semibold text-green-600"
-                        : tag.name === "warta"
-                          ? "w-fit rounded-lg border-2 border-purple-400 bg-purple-200 px-2 py-0.5 text-sm font-semibold text-purple-600"
-                          : tag.name === "Press Release"
-                            ? "uppercase text-xs font-extrabold text-blue-500 mb-2"
-                            : ""
+                      "uppercase text-xs font-extrabold text-blue-500 mb-2"
                     }
                   >
                     {tag.name}
                   </div>
                 ))}
+                </div>
                 <h1 className="text-start text-xl font-extrabold mb-3 capitalize">
                   {post.properties.Title.title[0].plain_text}
                 </h1>
