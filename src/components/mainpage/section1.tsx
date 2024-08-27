@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Button, buttonVariants } from "../ui/button";
+import { buttonVariants } from "../ui/button";
 import Ripple from "../magicui/ripple";
+import { FadeText } from "@/components/magicui/fade-text";
 
 export default function MeshGradient() {
   return (

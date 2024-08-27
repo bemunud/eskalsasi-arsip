@@ -12,7 +12,7 @@ export default async function BlogPreview() {
     <>
       <section className="container flex w-full flex-col gap-7">
         <div className="flex w-full flex-col justify-center gap-4">
-          <h2 className="text-center text-4xl font-extrabold text-black">
+          <h2 className="text-center text-3xl font-extrabold text-black md:text-4xl">
             Tetap terhubung dengan kegiatan kami
           </h2>
           <h2 className="text-balance text-center text-sm font-medium text-[#9daec5] md:text-lg">

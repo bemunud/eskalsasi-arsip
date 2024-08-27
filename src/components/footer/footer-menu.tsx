@@ -26,8 +26,9 @@ export default function FooterMenu() {
           </figcaption>
           <div className="flex items-center justify-center space-x-2 py-5 font-medium lg:justify-evenly lg:py-0">
             <Link
-              href="/press-kit"
+              href="https://www.figma.com/proto/WfTVnHmI757tzbLl3nsR2Y/BEM-Udayana?page-id=1%3A2&node-id=1-3&viewport=451%2C294%2C0.05&t=fAscTnkA7KiEDHbu-1&scaling=contain&content-scaling=fixed"
               className="underline-offset-4 hover:underline"
+              target="_blank"
             >
               Press Kit
             </Link>
