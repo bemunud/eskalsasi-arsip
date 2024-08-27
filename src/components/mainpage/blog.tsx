@@ -11,9 +11,14 @@ export default async function BlogPreview() {
   return (
     <>
       <section className="container flex w-full flex-col gap-7">
-        <h2 className="text-center text-4xl font-extrabold text-black">
-          Informasi & Kajian Terbaru
-        </h2>
+        <div className="flex flex-col justify-center gap-4 w-full">
+          <h2 className="text-center text-4xl font-extrabold text-black">
+            Tetap terhubung dengan kegiatan kami
+          </h2>
+          <h2 className="text-balance text-center text-sm font-medium text-[#D4D7DB] md:text-lg">
+            Kunjungi blog kami untuk mendapatkan informasi terkini seputar kegiatan mahasiswa Udayana
+          </h2>
+        </div>
         <Suspense fallback={<Loading />}>
           <div className="md:container">
             <div className="md:container">
