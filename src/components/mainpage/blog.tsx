@@ -51,7 +51,7 @@ export default async function BlogPreview() {
                             <div
                               key={tag.id}
                               className={
-                                "mb-2 text-xs font-extrabold uppercase text-blue-500"
+                                "mb-2 text-sm font-extrabold uppercase text-blue-500"
                               }
                             >
                               {tag.name}
