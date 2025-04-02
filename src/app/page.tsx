@@ -1,7 +1,7 @@
 import Footer from "@/components/footer";
 import BlogPreview from "@/components/mainpage/blog";
 import MeshGradient from "@/components/mainpage/section1";
-import InformantBem from "@/components/mainpage/section2";
+import InformantBem from "@/components/mainpage/section2-swap";
 import Navbar from "@/components/navbar/page";
 import MarqueeSlider from "@/components/mainpage/section3";
 

@@ -21,9 +21,9 @@ const buttonVariants = cva(
           "hover:bg-stone-100 hover:text-stone-900 dark:hover:bg-stone-800 dark:hover:text-stone-50",
         link: "text-stone-900 underline-offset-4 hover:underline dark:text-stone-50",
         eskalasi_scale:
-          "bg-gradient-to-l hover:bg-gradient-to-r text-stone-50 from-[#056BFF] to-[#012559] transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110",
+          "bg-gradient-to-l hover:bg-gradient-to-r text-stone-50 from-[#FF0000] to-[#012559] transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110",
         eskalasi:
-          "bg-gradient-to-l hover:bg-gradient-to-r text-stone-50 from-[#056BFF] to-[#012559] transition duration-300 ease-in-out",
+          "bg-gradient-to-l hover:bg-gradient-to-r text-stone-50 from-[#FF0000] to-[#012559] transition duration-300 ease-in-out",
       },
       size: {
         default: "h-10 px-4 py-2",

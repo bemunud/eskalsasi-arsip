@@ -18,17 +18,6 @@ export default function Footer() {
                 draggable="false"
               />
             </span>
-            <span className="flex items-center space-x-3">
-              <Image
-                src={"/logoeskalasi-svg.svg"}
-                alt="logo brand"
-                width={32}
-                height={32}
-                className="w-12"
-                priority
-                draggable="false"
-              />
-            </span>
           </div>
           <div className="gap-6">
             <p className="text-sm font-semibold">BEM PM Universitas Udayana</p>

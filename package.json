@@ -22,6 +22,7 @@
     "@splinetool/runtime": "^1.0.54",
     "@testing-library/react": "^16.0.0",
     "@types/three": "^0.167.1",
+    "animejs": "^3.2.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.27",
@@ -38,6 +39,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13",
+    "@types/animejs": "^3.1.13",
     "@types/next": "^9.0.0",
     "@types/node": "^20",
     "@types/react": "^18",

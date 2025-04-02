@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { buttonVariants } from "../ui/button";
 import Ripple from "../magicui/ripple";
-import { FadeText } from "@/components/magicui/fade-text";
+import SphereAnimation from "@/components/ui/sphere-animation";
 
 export default function MeshGradient() {
   return (
-    <section className="meshGradient relative flex h-full w-full flex-col items-center justify-center overflow-hidden xl:h-[48rem]">
+    <section className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden xl:h-[48rem]">
       <div className="z-10 flex h-screen w-full flex-col items-center justify-center gap-7 xl:h-[48rem]">
         <h1 className="max-w-screen-md text-center text-4xl font-extrabold text-black md:text-5xl lg:max-w-screen-lg lg:text-6xl">
           Jembatan pengantar aspirasi di kampus &quot;pewahyu rakyat&quot;
@@ -38,7 +38,7 @@ export default function MeshGradient() {
           </Link>
         </div>
       </div>
-      <Ripple />
+      <SphereAnimation />
     </section>
   );
 }
